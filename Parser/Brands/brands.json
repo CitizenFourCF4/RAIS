@@ -1,0 +1,536 @@
+{
+  "brands": [
+    {
+      "href": "https://localhost:5173/24-bottles/",
+      "brand_name": "24Bottles"
+    },
+    {
+      "href": "https://localhost:5173/abrams/",
+      "brand_name": "Abrams"
+    },
+    {
+      "href": "https://localhost:5173/acc-art-book/",
+      "brand_name": "ACC Art Books"
+    },
+    {
+      "href": "https://localhost:5173/acca-kappa/",
+      "brand_name": "Acca Kappa"
+    },
+    {
+      "href": "https://localhost:5173/adidas-originals/",
+      "brand_name": "adidas Originals"
+    },
+    {
+      "href": "https://localhost:5173/alltimers/",
+      "brand_name": "Alltimers"
+    },
+    {
+      "href": "https://localhost:5173/alpha-industries/",
+      "brand_name": "Alpha Industries"
+    },
+    {
+      "href": "https://localhost:5173/anglan/",
+      "brand_name": "ANGLAN"
+    },
+    {
+      "href": "https://localhost:5173/anonymous-ism/",
+      "brand_name": "Anonymous Ism"
+    },
+    {
+      "href": "https://localhost:5173/asics/",
+      "brand_name": "ASICS"
+    },
+    {
+      "href": "https://localhost:5173/assouline/",
+      "brand_name": "Assouline"
+    },
+    {
+      "href": "https://localhost:5173/bearbrick/",
+      "brand_name": "BE@RBRICK"
+    },
+    {
+      "href": "https://localhost:5173/birkenstock/",
+      "brand_name": "Birkenstock"
+    },
+    {
+      "href": "https://localhost:5173/blind-barber/",
+      "brand_name": "Blind Barber"
+    },
+    {
+      "href": "https://localhost:5173/book-publishers/",
+      "brand_name": "Book Publishers"
+    },
+    {
+      "href": "https://localhost:5173/brandshop/",
+      "brand_name": "BRANDSHOP"
+    },
+    {
+      "href": "https://localhost:5173/bronze-56k/",
+      "brand_name": "Bronze 56k"
+    },
+    {
+      "href": "https://localhost:5173/bubble-gum/",
+      "brand_name": "Bubble Gum"
+    },
+    {
+      "href": "https://localhost:5173/burberry/",
+      "brand_name": "Burberry"
+    },
+    {
+      "href": "https://localhost:5173/burlington/",
+      "brand_name": "Burlington"
+    },
+    {
+      "href": "https://localhost:5173/butter-goods/",
+      "brand_name": "Butter Goods"
+    },
+    {
+      "href": "https://localhost:5173/cp-company/",
+      "brand_name": "C.P. Company"
+    },
+    {
+      "href": "https://localhost:5173/caran-dache/",
+      "brand_name": "Caran d'Ache"
+    },
+    {
+      "href": "https://localhost:5173/casio/",
+      "brand_name": "CASIO"
+    },
+    {
+      "href": "https://localhost:5173/cayl/",
+      "brand_name": "CAYL"
+    },
+    {
+      "href": "https://localhost:5173/champion/",
+      "brand_name": "Champion"
+    },
+    {
+      "href": "https://localhost:5173/comme-des-garcons/",
+      "brand_name": "Comme des Garcons"
+    },
+    {
+      "href": "https://localhost:5173/common-projects/",
+      "brand_name": "Common Projects"
+    },
+    {
+      "href": "https://localhost:5173/converse/",
+      "brand_name": "Converse"
+    },
+    {
+      "href": "https://localhost:5173/coteetciel/",
+      "brand_name": "Cote et Ciel"
+    },
+    {
+      "href": "https://localhost:5173/crep-protect/",
+      "brand_name": "Crep Protect"
+    },
+    {
+      "href": "https://localhost:5173/diadora/",
+      "brand_name": "Diadora"
+    },
+    {
+      "href": "https://localhost:5173/diadora-heritage/",
+      "brand_name": "Diadora Heritage"
+    },
+    {
+      "href": "https://localhost:5173/dickies/",
+      "brand_name": "Dickies"
+    },
+    {
+      "href": "https://localhost:5173/dime/",
+      "brand_name": "Dime"
+    },
+    {
+      "href": "https://localhost:5173/dr-martens/",
+      "brand_name": "Dr. Martens"
+    },
+    {
+      "href": "https://localhost:5173/eastlogue/",
+      "brand_name": "EASTLOGUE"
+    },
+    {
+      "href": "https://localhost:5173/ebbets-field-flannels/",
+      "brand_name": "Ebbets Field Flannels"
+    },
+    {
+      "href": "https://localhost:5173/edwin/",
+      "brand_name": "Edwin"
+    },
+    {
+      "href": "https://localhost:5173/etudes/",
+      "brand_name": "Etudes"
+    },
+    {
+      "href": "https://localhost:5173/evisu/",
+      "brand_name": "Evisu"
+    },
+    {
+      "href": "https://localhost:5173/fc-real-bristol/",
+      "brand_name": "F.C. Real Bristol"
+    },
+    {
+      "href": "https://localhost:5173/falke/",
+      "brand_name": "Falke"
+    },
+    {
+      "href": "https://localhost:5173/fjallraven/",
+      "brand_name": "Fjallraven"
+    },
+    {
+      "href": "https://localhost:5173/floid/",
+      "brand_name": "Floid"
+    },
+    {
+      "href": "https://localhost:5173/frizmworks/",
+      "brand_name": "FrizmWORKS"
+    },
+    {
+      "href": "https://localhost:5173/g-shock/",
+      "brand_name": "G-Shock"
+    },
+    {
+      "href": "https://localhost:5173/gramicci/",
+      "brand_name": "Gramicci"
+    },
+    {
+      "href": "https://localhost:5173/grown-alchemist/",
+      "brand_name": "Grown Alchemist"
+    },
+    {
+      "href": "https://localhost:5173/guido-mondani-editore/",
+      "brand_name": "Guido Mondani Editore"
+    },
+    {
+      "href": "https://localhost:5173/hackett/",
+      "brand_name": "Hackett"
+    },
+    {
+      "href": "https://localhost:5173/helly-hansen/",
+      "brand_name": "Helly Hansen"
+    },
+    {
+      "href": "https://localhost:5173/holubar/",
+      "brand_name": "Holubar"
+    },
+    {
+      "href": "https://localhost:5173/iyso/",
+      "brand_name": "IYSO"
+    },
+    {
+      "href": "https://localhost:5173/jordan/",
+      "brand_name": "Jordan"
+    },
+    {
+      "href": "https://localhost:5173/k-swiss/",
+      "brand_name": "K-SWISS"
+    },
+    {
+      "href": "https://localhost:5173/k-way/",
+      "brand_name": "K-Way"
+    },
+    {
+      "href": "https://localhost:5173/kangol/",
+      "brand_name": "Kangol"
+    },
+    {
+      "href": "https://localhost:5173/kleman/",
+      "brand_name": "KLEMAN"
+    },
+    {
+      "href": "https://localhost:5173/lacoste/",
+      "brand_name": "Lacoste"
+    },
+    {
+      "href": "https://localhost:5173/lacoste-underwear/",
+      "brand_name": "Lacoste Underwear"
+    },
+    {
+      "href": "https://localhost:5173/left-hand-sportswear/",
+      "brand_name": "Left Hand Sportswear"
+    },
+    {
+      "href": "https://localhost:5173/ligne-blanche/",
+      "brand_name": "Ligne Blanche"
+    },
+    {
+      "href": "https://localhost:5173/ma-strum/",
+      "brand_name": "MA.Strum"
+    },
+    {
+      "href": "https://localhost:5173/maharishi/",
+      "brand_name": "maharishi"
+    },
+    {
+      "href": "https://localhost:5173/maison-margiela-mm6/",
+      "brand_name": "Maison Margiela MM6"
+    },
+    {
+      "href": "https://localhost:5173/market/",
+      "brand_name": "MARKET"
+    },
+    {
+      "href": "https://localhost:5173/marvis/",
+      "brand_name": "Marvis"
+    },
+    {
+      "href": "https://localhost:5173/master-piece/",
+      "brand_name": "Master-piece"
+    },
+    {
+      "href": "https://localhost:5173/mazi-untitled/",
+      "brand_name": "mazi untitled"
+    },
+    {
+      "href": "https://localhost:5173/medicom-toy/",
+      "brand_name": "Medicom Toy"
+    },
+    {
+      "href": "https://localhost:5173/msgm/",
+      "brand_name": "MSGM"
+    },
+    {
+      "href": "https://localhost:5173/napapijri/",
+      "brand_name": "Napapijri"
+    },
+    {
+      "href": "https://localhost:5173/nativeunion/",
+      "brand_name": "Native Union"
+    },
+    {
+      "href": "https://localhost:5173/new-balance/",
+      "brand_name": "New Balance"
+    },
+    {
+      "href": "https://localhost:5173/nike/",
+      "brand_name": "Nike"
+    },
+    {
+      "href": "https://localhost:5173/novesta/",
+      "brand_name": "Novesta"
+    },
+    {
+      "href": "https://localhost:5173/oakley/",
+      "brand_name": "Oakley"
+    },
+    {
+      "href": "https://localhost:5173/oliver-peoples/",
+      "brand_name": "Oliver Peoples"
+    },
+    {
+      "href": "https://localhost:5173/oswen/",
+      "brand_name": "Oswen"
+    },
+    {
+      "href": "https://localhost:5173/pangaia/",
+      "brand_name": "PANGAIA"
+    },
+    {
+      "href": "https://localhost:5173/peaceful-hooligan/",
+      "brand_name": "Peaceful Hooligan"
+    },
+    {
+      "href": "https://localhost:5173/pendleton/",
+      "brand_name": "Pendleton"
+    },
+    {
+      "href": "https://localhost:5173/phaidon/",
+      "brand_name": "Phaidon"
+    },
+    {
+      "href": "https://localhost:5173/piave/",
+      "brand_name": "Piave"
+    },
+    {
+      "href": "https://localhost:5173/polo-by-ralph-lauren/",
+      "brand_name": "Polo Ralph Lauren"
+    },
+    {
+      "href": "https://localhost:5173/porter-yoshida-and-co/",
+      "brand_name": "Porter-Yoshida and Co"
+    },
+    {
+      "href": "https://localhost:5173/prada-linea-rossa/",
+      "brand_name": "Prada Linea Rossa"
+    },
+    {
+      "href": "https://localhost:5173/premiata/",
+      "brand_name": "Premiata"
+    },
+    {
+      "href": "https://localhost:5173/property-of/",
+      "brand_name": "Property Of\u2026"
+    },
+    {
+      "href": "https://localhost:5173/proraso/",
+      "brand_name": "Proraso"
+    },
+    {
+      "href": "https://localhost:5173/puma/",
+      "brand_name": "Puma"
+    },
+    {
+      "href": "https://localhost:5173/ray-ban/",
+      "brand_name": "Ray-Ban"
+    },
+    {
+      "href": "https://localhost:5173/reebok/",
+      "brand_name": "Reebok"
+    },
+    {
+      "href": "https://localhost:5173/represent/",
+      "brand_name": "REPRESENT"
+    },
+    {
+      "href": "https://localhost:5173/rick-owens/",
+      "brand_name": "Rick Owens"
+    },
+    {
+      "href": "https://localhost:5173/rick-owens-drkshdw/",
+      "brand_name": "Rick Owens DRKSHDW"
+    },
+    {
+      "href": "https://localhost:5173/ripndip/",
+      "brand_name": "Ripndip"
+    },
+    {
+      "href": "https://localhost:5173/rizzoli/",
+      "brand_name": "Rizzoli"
+    },
+    {
+      "href": "https://localhost:5173/sandqvist/",
+      "brand_name": "Sandqvist"
+    },
+    {
+      "href": "https://localhost:5173/saucony/",
+      "brand_name": "Saucony"
+    },
+    {
+      "href": "https://localhost:5173/schiffer/",
+      "brand_name": "Schiffer"
+    },
+    {
+      "href": "https://localhost:5173/sophnet/",
+      "brand_name": "SOPHNET."
+    },
+    {
+      "href": "https://localhost:5173/st-95/",
+      "brand_name": "ST-95"
+    },
+    {
+      "href": "https://localhost:5173/stan-ray/",
+      "brand_name": "Stan Ray"
+    },
+    {
+      "href": "https://localhost:5173/stone-island/",
+      "brand_name": "Stone Island"
+    },
+    {
+      "href": "https://localhost:5173/stutterheim/",
+      "brand_name": "Stutterheim"
+    },
+    {
+      "href": "https://localhost:5173/suncore/",
+      "brand_name": "SUNCORE"
+    },
+    {
+      "href": "https://localhost:5173/superplastic/",
+      "brand_name": "SUPERPLASTIC"
+    },
+    {
+      "href": "https://localhost:5173/tarrago-sneakers-care/",
+      "brand_name": "Tarrago Sneakers Care"
+    },
+    {
+      "href": "https://localhost:5173/taschen/",
+      "brand_name": "TASCHEN"
+    },
+    {
+      "href": "https://localhost:5173/teneues/",
+      "brand_name": "teNeues"
+    },
+    {
+      "href": "https://localhost:5173/thames-and-hudson/",
+      "brand_name": "Thames & Hudson"
+    },
+    {
+      "href": "https://localhost:5173/the-north-face/",
+      "brand_name": "The North Face"
+    },
+    {
+      "href": "https://localhost:5173/thisisneverthat/",
+      "brand_name": "thisisneverthat"
+    },
+    {
+      "href": "https://localhost:5173/timberland/",
+      "brand_name": "Timberland"
+    },
+    {
+      "href": "https://localhost:5173/timex/",
+      "brand_name": "Timex"
+    },
+    {
+      "href": "https://localhost:5173/tsch/",
+      "brand_name": "TSCH"
+    },
+    {
+      "href": "https://localhost:5173/tsptr/",
+      "brand_name": "TSPTR"
+    },
+    {
+      "href": "https://localhost:5173/umbro/",
+      "brand_name": "Umbro"
+    },
+    {
+      "href": "https://localhost:5173/unaffected/",
+      "brand_name": "UNAFFECTED"
+    },
+    {
+      "href": "https://localhost:5173/uniform-bridge/",
+      "brand_name": "Uniform Bridge"
+    },
+    {
+      "href": "https://localhost:5173/uniform-experiment/",
+      "brand_name": "uniform experiment"
+    },
+    {
+      "href": "https://localhost:5173/us-rubber/",
+      "brand_name": "US Rubber"
+    },
+    {
+      "href": "https://localhost:5173/vans/",
+      "brand_name": "Vans"
+    },
+    {
+      "href": "https://localhost:5173/victorinox/",
+      "brand_name": "Victorinox"
+    },
+    {
+      "href": "https://localhost:5173/watchprint/",
+      "brand_name": "Watchprint"
+    },
+    {
+      "href": "https://localhost:5173/weekend-offender/",
+      "brand_name": "Weekend Offender"
+    },
+    {
+      "href": "https://localhost:5173/woolrich/",
+      "brand_name": "Woolrich"
+    },
+    {
+      "href": "https://localhost:5173/y-3/",
+      "brand_name": "Y-3"
+    },
+    {
+      "href": "https://localhost:5173/yeezy/",
+      "brand_name": "YEEZY"
+    },
+    {
+      "href": "https://localhost:5173/zcwo/",
+      "brand_name": "ZCWO"
+    },
+    {
+      "href": "https://localhost:5173/zespa/",
+      "brand_name": "Zespa"
+    }
+  ]
+}

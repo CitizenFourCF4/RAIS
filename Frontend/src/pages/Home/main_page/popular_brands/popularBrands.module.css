@@ -1,0 +1,64 @@
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  .popular_brands{
+    margin-bottom: 4.4rem;
+  }
+  
+  .popular_brands_title_wrapper{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .popular_brands_title{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+  }
+
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.reviewsContainer {
+  display: flex;
+  flex-direction: row;
+  animation: slide 100s linear infinite;
+  }
+
+.reviewCard {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
+  }
+
+  .img{
+    height: 120px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100px;
+  }

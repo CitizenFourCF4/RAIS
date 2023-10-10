@@ -1,0 +1,57 @@
+.container{
+  max-width: 1488px;
+  padding: 0 3.6rem;
+  margin: 0 auto;
+}
+
+.brandlist_list{
+  display: flex;
+  padding-top: 120px;
+  flex-wrap: wrap;
+  row-gap: 6.4rem;
+}
+
+.brandlist_item{
+  display: flex;
+  gap: 1.6rem;
+  max-width: 23.2rem;
+  width: 100%;
+}
+
+.brandlist_title{
+  color: #000;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  text-align: right;
+}
+
+.brandlist_body{
+  font-size: 1.4rem;
+  margin-top: .2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 19.8rem;
+}
+
+.brandlist_body_item{
+  display: flex;
+  gap: .8rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.link{
+  line-height: 1.3rem;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+  position: relative;
+  width: max-content;
+}
+
+.brandlist_body_text{
+  display: inline-block;
+  margin-right: .4rem;
+}

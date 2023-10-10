@@ -1,0 +1,40 @@
+.container{
+  max-width: 1488px;
+  padding: 0 3.6rem;
+  margin: 0 auto;
+}
+
+.module_root{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 720px;
+  width: 100%;
+  margin: 250px auto;
+}
+
+.module_title{
+  margin-right: 1.5rem !important;
+  color: rgba(220,53,69,1);
+  font-size: 158px;
+  margin-top: 0;
+  margin-bottom: 0 !important;
+}
+
+.text_title{
+  color: rgb(135, 47, 47);
+  font-weight: 600;
+  font-family: "Blender Pro", Helvetica, sans-serif;
+  cursor: default;
+  align-items: center !important;
+  font-size: 1.75rem;
+  display: flex !important;
+}
+
+.text_subtitle{
+  color: rgb(135, 47, 47);
+  font-weight: 400;
+  font-family: "Blender Pro", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+}

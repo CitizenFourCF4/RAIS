@@ -1,0 +1,17 @@
+.footer_container{
+  padding: 0 3.6rem;
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1488px;
+}
+
+.footer_body{
+  column-gap: 1rem;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  justify-items: left;
+  margin: 0 auto;
+  padding: 3.6rem 0 8.1rem;
+}

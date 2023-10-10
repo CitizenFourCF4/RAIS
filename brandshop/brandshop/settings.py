@@ -68,7 +68,9 @@ REST_FRAMEWORK = {
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
-
+# CORS_ALLOW_HEADERS = ['X-CSRFTOKEN', 'content-type']
+# CSRF_TRUSTED_ORIGINS = ['https://127.0.0.1:5173', 'http://localhost:5173']
+# CSRF_COOKIE_NAME = "X-CSRFTOKEN"
 
 ROOT_URLCONF = 'brandshop.urls'
 

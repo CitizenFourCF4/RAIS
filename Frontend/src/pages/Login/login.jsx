@@ -6,16 +6,10 @@ import axios from "axios";
 
 
 
-axios.defaults.xsrfCookieName = 'csrftoken';
-axios.defaults.xsrfHeaderName = 'X-CSRFToken';
-axios.defaults.withCredentials = true;
-
-
-const client = axios.create({
-  baseURL: "http://127.0.0.1:8000"
-});
-
 const Login = () => {
+  // axios.defaults.withCredentials = true
+  // // axios.defaults.xsrfHeaderName = "X-CSRFTOKEN";
+  // // axios.defaults.xsrfCookieName = "csrftoken";
   const email = useRef(null)
   const password = useRef(null)
   const username = useRef(null)
@@ -26,7 +20,7 @@ const Login = () => {
     const inputPassword = password?.current?.value||""
     const inputUsername = username?.current?.value||""
 
-    client.post('/api/login/', {
+    axios.post('http://127.0.0.1:8000/api/login/', {
       email: inputEmail,
       password: inputPassword,
       username: inputUsername,    

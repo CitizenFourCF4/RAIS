@@ -1,39 +1,24 @@
-import React, {useRef} from "react";
+import React, {useRef, useContext} from "react";
 import Header from "../../components/header/header";
 import styles from './login.module.css'
 import {TfiLock} from 'react-icons/tfi'
 import axios from "axios";
+import AuthContext from "../../context/AuthContext";
 
 
 
 const Login = () => {
-  // axios.defaults.withCredentials = true
-  // // axios.defaults.xsrfHeaderName = "X-CSRFTOKEN";
-  // // axios.defaults.xsrfCookieName = "csrftoken";
+  let {loginUser} = useContext(AuthContext)
   const email = useRef(null)
   const password = useRef(null)
   const username = useRef(null)
 
-  const onSubmitHandler = (event) => {
-    event.preventDefault();
-    const inputEmail = email?.current?.value||""
-    const inputPassword = password?.current?.value||""
-    const inputUsername = username?.current?.value||""
-
-    axios.post('http://127.0.0.1:8000/api/login/', {
-      email: inputEmail,
-      password: inputPassword,
-      username: inputUsername,    
-    })
-    .then((response) => {
-      console.log(response)
-    })
-
-    .catch(function (error) {
-      console.log(error);
-    });
-
-}
+//   const onSubmitHandler = (event) => {
+//     event.preventDefault();
+//     const inputEmail = email?.current?.value||""
+//     const inputPassword = password?.current?.value||""
+//     const inputUsername = username?.current?.value||""
+// }
 
 
   return(
@@ -44,7 +29,7 @@ const Login = () => {
       <div className={styles.layout__body}>
         <h2 className={styles.auth__tagline}>Войти</h2>
 
-        <form className={styles.form} onSubmit={onSubmitHandler}>
+        <form className={styles.form} onSubmit={loginUser}>
           <div className={styles.form__group}>
             <label for="email" style={{marginBottom:'1rem'}}>Электронная почта</label>
             <input className={styles.input_form} id="email" name="email" type="email" placeholder="e.g. primaty71@mail.ru" ref={email}/>
@@ -59,7 +44,7 @@ const Login = () => {
               placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" ref={password}/>
           </div>
 
-          <button type="submit" style={{width:'20%'}} onClick={(e) => onSubmitHandler(e)}>
+          <button type="submit" style={{width:'20%'}}>
             <TfiLock size={30}/>
             Войти
           </button>

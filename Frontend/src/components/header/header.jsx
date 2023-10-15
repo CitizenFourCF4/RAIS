@@ -1,11 +1,12 @@
-import React from "react";
+import React, {useContext} from "react";
 import headerItems from "./headerItems";
 import {BsStar, BsSearch, BsPerson} from 'react-icons/bs'
 import {PiHandbagSimple} from 'react-icons/pi'
 import styles from './header.module.css'
+import AuthContext from "../../context/AuthContext";
 
 const Header = () => {
-  
+  let {user} = useContext(AuthContext)
   return(
       <div className={styles.header_wrapper}>
         <div className={styles.header_container}>
@@ -15,6 +16,7 @@ const Header = () => {
                 <img src="/images/orig.svg" />
               </a>
             </div>
+            {user && <p>{user.username}</p>}
             
             <div className={styles.header_head}>
               <ul className={styles.menu_header_list}>

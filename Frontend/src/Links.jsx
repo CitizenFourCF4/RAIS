@@ -11,20 +11,24 @@ import Login from "./pages/Login/login";
 import Register from "./pages/Register/register";
 import Cart from "./pages/Cart/Cart";
 
+import { AuthProvider } from './context/AuthContext'
+
 const Links = () => {
   return(
-    <Routes>
-      <Route path="*" element={<Page404 />}/>
-      <Route path="/" element={<HomePage />}/>
-      <Route path="/brandlist" element={<BrandsPage />}/>
-      <Route path="/goods/:id" element={<Good />}/>
-      <Route path="/muzhskoe" element={<Man />}/>
-      <Route path="/zhenskoe" element={<Woman />}/>
-      <Route path="/brands/:brand_name" element={<Brand />}/>
-      <Route path="/login" element={<Login />}/>
-      <Route path="/register" element={<Register />}/>
-      <Route path="/cart" element={<Cart />}/>
-    </Routes>  
+    <AuthProvider>
+      <Routes>
+        <Route path="*" element={<Page404 />}/>
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/brandlist" element={<BrandsPage />}/>
+        <Route path="/goods/:id" element={<Good />}/>
+        <Route path="/muzhskoe" element={<Man />}/>
+        <Route path="/zhenskoe" element={<Woman />}/>
+        <Route path="/brands/:brand_name" element={<Brand />}/>
+        <Route path="/login" element={<Login />}/>
+        <Route path="/register" element={<Register />}/>
+        <Route path="/cart" element={<Cart />}/>
+      </Routes>  
+    </AuthProvider>
   )
 }
 

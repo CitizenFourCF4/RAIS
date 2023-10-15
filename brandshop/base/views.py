@@ -1,9 +1,11 @@
 from rest_framework.views import APIView
-from .models import Brand, Item
+from .models import Brand, Item, Cart
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
-from .serializer import MyTokenObtainPairSerializer
+from .serializer import MyTokenObtainPairSerializer, CartSerializer
+from rest_framework.decorators import permission_classes
+from rest_framework.permissions import IsAuthenticated
 
 
 class BrandlistView(APIView):
@@ -90,6 +92,16 @@ class WomanPageView(APIView):
     return Response(goods_responce)
   
 
+@permission_classes([IsAuthenticated])
+class CartView(APIView):
+  def get(self, request):
+    user = request.user
+    cart_items = Cart.objects.filter(user=user)
+    cart_items_response = [{
+      'item': item.item.name,
+      'count': item.count,
+    } for item in cart_items]
+    return Response(cart_items_response)
 
 
 

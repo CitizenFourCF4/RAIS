@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Brand, Item
+from .models import Brand, Item, Cart
 from django.contrib.auth import get_user_model, authenticate
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
@@ -17,14 +17,17 @@ class ItemSerializer(serializers.ModelSerializer):
     fields = "__all__"
 
 
+class CartSerializer(serializers.ModelSerializer):
+  class Meta:
+    model = Cart
+    fields = "__all__"
+
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
   @classmethod
   def get_token(cls, user):
     token = super().get_token(user)
 
-    # Add custom claims
     token['username'] = user.username
-    # ...
 
     return token    

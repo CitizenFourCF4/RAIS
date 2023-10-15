@@ -41,15 +41,16 @@ for item in clothes_list:
    sex = 'Мужской'
    category = 'Анораки'
    brand = soup.find('a', class_='product-page__header font font_title-l').text
-   size = re.findall(r'[0-9SMLXY/-ONESIZE ]+',soup.find('div', class_='product-plate__item').text)[0].strip()
-   
-   img_href = soup.find('div', class_='zoom-region').find('div',class_='product-page__img _ibg').find('img').get('src')
-   FOLDER = 'brandshop/media/images/'
+   sizes = [str(elem.text).split()[0] for elem in soup.find_all('div', class_='product-plate__item')]
 
-   response = requests.get(img_href)
-   imagename = FOLDER + str(id) + '.jpg'
-   with open(imagename, 'wb') as picture:
-    picture.write(response.content)
+   
+   # img_href = soup.find('div', class_='zoom-region').find('div',class_='product-page__img _ibg').find('img').get('src')
+   # FOLDER = 'brandshop/media/images/'
+
+   # response = requests.get(img_href)
+   # imagename = FOLDER + str(id) + '.jpg'
+   # with open(imagename, 'wb') as picture:
+   #  picture.write(response.content)
 
 
    for index, elem in enumerate(brands):
@@ -65,8 +66,8 @@ for item in clothes_list:
     'color': color,
     'sex': sex,
     'category': category,
-    'size': size,
-    'picture_path': f'http://127.0.0.1:8000/media/images/{id}',
+    'sizes': sizes,
+    'picture_path': f'http://127.0.0.1:8000/media/images/{id}.jpg',
     'created': datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
     'brand_id': brand_id
     }

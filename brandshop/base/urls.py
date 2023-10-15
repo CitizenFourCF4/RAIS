@@ -1,5 +1,6 @@
 from django.urls import path
-from .views import BrandlistView, OneBrandView, ItemView, ManPageView, WomanPageView, CartView
+from .views import BrandlistView
+from .views import OneBrandView, ItemView, ManPageView, WomanPageView, CartView
 from rest_framework_simplejwt.views import TokenRefreshView
 
 from .views import MyTokenObtainPairView

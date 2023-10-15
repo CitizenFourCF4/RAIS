@@ -15,9 +15,7 @@ const Header = () => {
               <a href="/">
                 <img src="/images/orig.svg" />
               </a>
-            </div>
-            {user && <p>{user.username}</p>}
-            
+            </div>            
             <div className={styles.header_head}>
               <ul className={styles.menu_header_list}>
                 {headerItems.map((item, index) => (

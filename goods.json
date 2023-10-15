@@ -8,15 +8,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/1.jpg",
-      "created": "2023-10-15T12:22:21Z",
+      "created": "2023-10-05T23:57:59Z",
       "brand_id": 22
     },
     {
@@ -27,14 +21,9 @@
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/2.jpg",
-      "created": "2023-10-15T12:22:22Z",
+      "created": "2023-10-05T23:58:02Z",
       "brand_id": 114
     },
     {
@@ -45,15 +34,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/3.jpg",
-      "created": "2023-10-15T12:22:24Z",
+      "created": "2023-10-05T23:58:04Z",
       "brand_id": 114
     },
     {
@@ -64,15 +47,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/4.jpg",
-      "created": "2023-10-15T12:22:26Z",
+      "created": "2023-10-05T23:58:06Z",
       "brand_id": 21
     },
     {
@@ -83,15 +60,9 @@
       "color": "\u0413\u043e\u043b\u0443\u0431\u043e\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/5.jpg",
-      "created": "2023-10-15T12:22:27Z",
+      "created": "2023-10-05T23:58:08Z",
       "brand_id": 62
     },
     {
@@ -102,15 +73,9 @@
       "color": "\u0421\u0435\u0440\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/6.jpg",
-      "created": "2023-10-15T12:22:29Z",
+      "created": "2023-10-05T23:58:10Z",
       "brand_id": 62
     },
     {
@@ -121,12 +86,9 @@
       "color": "\u041a\u0430\u043c\u0443\u0444\u043b\u044f\u0436\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/7.jpg",
-      "created": "2023-10-15T12:22:31Z",
+      "created": "2023-10-05T23:58:13Z",
       "brand_id": 128
     },
     {
@@ -137,12 +99,9 @@
       "color": "\u0424\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "M",
-        "L"
-      ],
+      "size": "M",
       "picture_path": "http://127.0.0.1:8000/media/images/8.jpg",
-      "created": "2023-10-15T12:22:33Z",
+      "created": "2023-10-05T23:58:16Z",
       "brand_id": 128
     },
     {
@@ -153,13 +112,9 @@
       "color": "\u0417\u0435\u043b\u0451\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "M",
-        "L",
-        "XL"
-      ],
+      "size": "M",
       "picture_path": "http://127.0.0.1:8000/media/images/9.jpg",
-      "created": "2023-10-15T12:22:34Z",
+      "created": "2023-10-05T23:58:18Z",
       "brand_id": 128
     },
     {
@@ -170,13 +125,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "M",
-        "L",
-        "XL"
-      ],
+      "size": "M",
       "picture_path": "http://127.0.0.1:8000/media/images/10.jpg",
-      "created": "2023-10-15T12:22:36Z",
+      "created": "2023-10-05T23:58:22Z",
       "brand_id": 128
     },
     {
@@ -187,15 +138,9 @@
       "color": "\u0421\u0435\u0440\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/11.jpg",
-      "created": "2023-10-15T12:22:37Z",
+      "created": "2023-10-05T23:58:25Z",
       "brand_id": 104
     },
     {
@@ -206,15 +151,9 @@
       "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/12.jpg",
-      "created": "2023-10-15T12:22:39Z",
+      "created": "2023-10-05T23:58:27Z",
       "brand_id": 104
     },
     {
@@ -225,11 +164,9 @@
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "M"
-      ],
+      "size": "M",
       "picture_path": "http://127.0.0.1:8000/media/images/13.jpg",
-      "created": "2023-10-15T12:22:40Z",
+      "created": "2023-10-05T23:58:30Z",
       "brand_id": 73
     },
     {
@@ -240,12 +177,9 @@
       "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "M",
       "picture_path": "http://127.0.0.1:8000/media/images/14.jpg",
-      "created": "2023-10-15T12:22:42Z",
+      "created": "2023-10-05T23:58:32Z",
       "brand_id": 73
     },
     {
@@ -256,12 +190,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/15.jpg",
-      "created": "2023-10-15T12:22:44Z",
+      "created": "2023-10-05T23:58:34Z",
       "brand_id": 73
     },
     {
@@ -272,12 +203,9 @@
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/16.jpg",
-      "created": "2023-10-15T12:22:45Z",
+      "created": "2023-10-05T23:58:36Z",
       "brand_id": 73
     },
     {
@@ -288,12 +216,9 @@
       "color": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/17.jpg",
-      "created": "2023-10-15T12:22:47Z",
+      "created": "2023-10-05T23:58:39Z",
       "brand_id": 73
     },
     {
@@ -304,12 +229,9 @@
       "color": "\u0421\u0435\u0440\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/18.jpg",
-      "created": "2023-10-15T12:22:48Z",
+      "created": "2023-10-05T23:58:41Z",
       "brand_id": 73
     },
     {
@@ -320,12 +242,9 @@
       "color": "\u0421\u0435\u0440\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/19.jpg",
-      "created": "2023-10-15T12:22:50Z",
+      "created": "2023-10-05T23:58:44Z",
       "brand_id": 73
     },
     {
@@ -336,12 +255,9 @@
       "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/20.jpg",
-      "created": "2023-10-15T12:22:52Z",
+      "created": "2023-10-05T23:58:47Z",
       "brand_id": 73
     },
     {
@@ -352,12 +268,9 @@
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/21.jpg",
-      "created": "2023-10-15T12:22:52Z",
+      "created": "2023-10-05T23:58:49Z",
       "brand_id": 73
     },
     {
@@ -368,11 +281,9 @@
       "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/22.jpg",
-      "created": "2023-10-15T12:22:54Z",
+      "created": "2023-10-05T23:58:52Z",
       "brand_id": 73
     },
     {
@@ -383,11 +294,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S"
-      ],
+      "size": "XS",
       "picture_path": "http://127.0.0.1:8000/media/images/23.jpg",
-      "created": "2023-10-15T12:22:55Z",
+      "created": "2023-10-05T23:58:54Z",
       "brand_id": 73
     },
     {
@@ -398,12 +307,9 @@
       "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "M",
       "picture_path": "http://127.0.0.1:8000/media/images/24.jpg",
-      "created": "2023-10-15T12:22:57Z",
+      "created": "2023-10-05T23:58:58Z",
       "brand_id": 64
     },
     {
@@ -414,11 +320,9 @@
       "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/25.jpg",
-      "created": "2023-10-15T12:22:59Z",
+      "created": "2023-10-05T23:59:02Z",
       "brand_id": 64
     },
     {
@@ -429,13 +333,9 @@
       "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "XXL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/26.jpg",
-      "created": "2023-10-15T12:23:01Z",
+      "created": "2023-10-05T23:59:05Z",
       "brand_id": 82
     },
     {
@@ -446,12 +346,9 @@
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "M",
       "picture_path": "http://127.0.0.1:8000/media/images/27.jpg",
-      "created": "2023-10-15T12:23:03Z",
+      "created": "2023-10-05T23:59:07Z",
       "brand_id": 82
     },
     {
@@ -462,13 +359,9 @@
       "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "L",
-        "XL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/28.jpg",
-      "created": "2023-10-15T12:23:04Z",
+      "created": "2023-10-05T23:59:10Z",
       "brand_id": 82
     },
     {
@@ -479,14 +372,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/29.jpg",
-      "created": "2023-10-15T12:23:06Z",
+      "created": "2023-10-05T23:59:13Z",
       "brand_id": 82
     },
     {
@@ -497,14 +385,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/30.jpg",
-      "created": "2023-10-15T12:23:09Z",
+      "created": "2023-10-05T23:59:15Z",
       "brand_id": 104
     },
     {
@@ -515,11 +398,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/31.jpg",
-      "created": "2023-10-15T12:23:11Z",
+      "created": "2023-10-05T23:59:19Z",
       "brand_id": 39
     },
     {
@@ -530,13 +411,9 @@
       "color": "\u0424\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/32.jpg",
-      "created": "2023-10-15T12:23:13Z",
+      "created": "2023-10-05T23:59:22Z",
       "brand_id": 115
     },
     {
@@ -547,13 +424,9 @@
       "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "XL"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/33.jpg",
-      "created": "2023-10-15T12:23:15Z",
+      "created": "2023-10-05T23:59:24Z",
       "brand_id": 115
     },
     {
@@ -564,12 +437,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/34.jpg",
-      "created": "2023-10-15T12:23:16Z",
+      "created": "2023-10-05T23:59:26Z",
       "brand_id": 115
     },
     {
@@ -580,12 +450,9 @@
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "size": "M",
       "picture_path": "http://127.0.0.1:8000/media/images/35.jpg",
-      "created": "2023-10-15T12:23:19Z",
+      "created": "2023-10-05T23:59:29Z",
       "brand_id": 115
     },
     {
@@ -596,11 +463,9 @@
       "color": "\u0411\u043e\u0440\u0434\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "M"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/36.jpg",
-      "created": "2023-10-15T12:23:20Z",
+      "created": "2023-10-05T23:59:33Z",
       "brand_id": 115
     },
     {
@@ -611,11 +476,9 @@
       "color": "\u0417\u0435\u043b\u0451\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/37.jpg",
-      "created": "2023-10-15T12:23:22Z",
+      "created": "2023-10-05T23:59:36Z",
       "brand_id": 42
     },
     {
@@ -626,11 +489,9 @@
       "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S"
-      ],
+      "size": "S",
       "picture_path": "http://127.0.0.1:8000/media/images/38.jpg",
-      "created": "2023-10-15T12:23:24Z",
+      "created": "2023-10-05T23:59:39Z",
       "brand_id": 42
     }
   ]

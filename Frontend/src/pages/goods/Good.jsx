@@ -8,14 +8,29 @@ import { useParams } from "react-router-dom";
 const Good = () => {
   const [good, setGood] = useState([])
   const page_id = useParams().id
+  const [chosenSize, setChosenSize] = useState(0)
+
+
+
   useEffect(()=>{
-    console.log(page_id)
-    const fetchData = async () => {
-        const data = await loadGood.getAll(page_id)
-        setGood(data)
-    }
-        fetchData()
+    getItem()
 }, []);
+
+
+const getItem = async() => {
+  const response = await fetch(`http://127.0.0.1:8000/api/item/${page_id}/`, {
+    method: 'GET',
+    headers:{
+      'Content-Type': 'application/json',
+    }
+  })
+  let data = await response.json()
+  console.log(data)
+  setGood(data)
+}
+
+
+
 
   return(
     <div>
@@ -41,19 +56,24 @@ const Good = () => {
                 <div className={styles.product_page_card}>
                   <div className={styles.product_page_header_wrapper}>
                     <p className={styles.product_page_header}>
-                      {good.name}
+                      <a href={good.brand_href} style={{textDecoration: 'none', color:'inherit'}}>
+                      {good.brand_name}
+                      </a>
                     </p>
                     <span className={styles.product_page_subheader}>
-                      {good.category}
+                      {good.name}
                     </span>
                     <div>
                       <div className={styles.product_page_title}>
-                        Доступный размер
+                        Доступные размеры
                       </div>
                       <div className={styles.product_page_plate}>
-                          <div className={styles.product_plate_item}>
-                            {good.size}
+                        {good.sizes && good.sizes.map((size, index) => (
+                          <div key={index} className={styles.product_plate_item} onClick={() =>setChosenSize(index)} active={index===chosenSize ? 'active' : ''}>
+                            {size}
                           </div>
+                        ))}
+                          
                       </div>
 
                     </div>

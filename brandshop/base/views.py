@@ -3,7 +3,7 @@ from .models import Brand, Item, Cart
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
-from .serializer import MyTokenObtainPairSerializer, CartSerializer
+from .serializer import MyTokenObtainPairSerializer
 from rest_framework.decorators import permission_classes
 from rest_framework.permissions import IsAuthenticated
 
@@ -15,6 +15,7 @@ class BrandlistView(APIView):
         'id': output.id,
         'href': output.href,
         'name': output.name,
+        'title': output.title,
       }
     for output in Brand.objects.all()] 
     return Response(output)
@@ -32,14 +33,16 @@ class OneBrandView(APIView):
       'color': brand.color,
       'sex': brand.sex,
       'category': brand.category,
-      'size': brand.size,
+      'sizes': brand.sizes,
       'picture_path': brand.picture_path,
       'created': brand.created,
       'brand_href': brand.brand.href,
-      'brand_name': brand.brand.name,
+      'brand_name': brand.brand.title,
 
     } for brand in brand_list]
-    return Response(brand_responce)
+    if brand_responce:
+      return Response(brand_responce, status=200)
+    return Response(brand_responce, status=404)
   
 
 
@@ -54,11 +57,11 @@ class ItemView(APIView):
       'color': item.color,
       'sex': item.sex,
       'category': item.category,
-      'size': item.size,
+      'sizes': item.sizes,
       'picture_path': item.picture_path,
       'created': item.created,
       'brand_href': item.brand.href,
-      'brand_name': item.brand.name,
+      'brand_name': item.brand.title,
     }
     return Response(item_responce)
   
@@ -68,9 +71,9 @@ class ManPageView(APIView):
     goods_responce = [{
       'href': good.href,
       'name': good.name,
-      'size':good.size,
+      'sizes':good.sizes,
       'price': good.price,
-      'brand_name': good.brand.name,
+      'brand_name': good.brand.title,
       'picture_path':good.picture_path
     } for good in goods]
 
@@ -83,7 +86,7 @@ class WomanPageView(APIView):
     goods_responce = [{
       'href': good.href,
       'name': good.name,
-      'size':good.size,
+      'sizes':good.sizes,
       'price': good.price,
       'brand_name': good.brand.name,
       'picture_path':good.picture_path

@@ -32,10 +32,9 @@ const BrandList = ({brandlist}) => {
           <ul className={styles.brandlist_body}>
             {groupedBrands[letter].map((brand, index) => (
               <li key={index} className={styles.brandlist_body_item}>
-                <a href={brand['href'].toLowerCase()} className={styles.link}>
-                  <span className={styles.brandlist_body_text}>{brand['name']}</span>
+                <a href={brand['href']} className={styles.link}>
+                  <span className={styles.brandlist_body_text}>{brand['title']}</span>
                 </a>
-                
               </li>
             )
             )}

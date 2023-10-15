@@ -59,6 +59,7 @@
 
 .product_page_subheader{
   display: block;
+  margin-bottom: 25px;
   text-align: center;
   color: rgba(0,0,0,.4);
   font-size: 1.4rem !important;
@@ -100,6 +101,11 @@
   position: relative;
   -webkit-transition: background-color .3s ease,color .3s ease;
   transition: background-color .3s ease,color .3s ease;
+}
+
+.product_plate_item[active='active'] {
+  background: #000;
+  color: #fff;
 }
 
 .product_order_price{

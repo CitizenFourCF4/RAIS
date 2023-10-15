@@ -1,15 +1,9 @@
 from rest_framework.views import APIView
 from .models import Brand, Item
 from rest_framework.response import Response
-from rest_framework import views, permissions
-from .serializer import LoginSerializer, UserRegisterSerializer
-from django.contrib.auth import login, logout
-from rest_framework import status
-from rest_framework.decorators import api_view
-from django.contrib.auth.models import User
-
-from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.views import APIView
+from rest_framework_simplejwt.views import TokenObtainPairView
+from .serializer import MyTokenObtainPairSerializer
 
 
 class BrandlistView(APIView):
@@ -96,57 +90,8 @@ class WomanPageView(APIView):
     return Response(goods_responce)
   
 
-class LoginView(views.APIView):
-    # This view should be accessible also for unauthenticated users.
-    permission_classes = (permissions.AllowAny,)
-
-    def post(self, request, format=None):
-        serializer = LoginSerializer(data=self.request.data, context={ 'request': self.request })
-        print(request.user)
-        serializer.is_valid(raise_exception=True)
-        user = serializer.validated_data['user']
-        login(request, user)
-        return Response(None, status=status.HTTP_202_ACCEPTED)
-
-
-@api_view(['POST'])
-def register_user(request):
-    if request.method == 'POST':
-        serializer = UserRegisterSerializer(data=request.data)
-        print(request.data['email'])
-        if serializer.is_valid():
-            if User.objects.filter(email=request.data['email']).exists():
-               error = { "username": "A user with that email already exists." }
-               return Response(error, status=status.HTTP_400_BAD_REQUEST)
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
-
-class UserLogout(APIView):
-  def post(self, request):
-    logout(request)
-    return Response(status=status.HTTP_200_OK)
-  
 
 
 
-class ExampleView(APIView):
-    authentication_classes = [SessionAuthentication, BasicAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
-
-    def get(self, request, format=None):
-        content = {
-            'user': str(request.user),  # `django.contrib.auth.User` instance.
-            'auth': str(request.auth),  # None
-        }
-        return Response(content)
-# class UserView(APIView):
-#   permission_classes = (permissions.AllowAny,)
-#   authentication_classes = (SessionAuthentication,)
-
-#   def get(self, request):
-#     serializer = UserSerializer(request.user)
-#     if not serializer.data['username']:
-#       return Response({'detail': 'Authentication credentials were not provided'}, status=status.HTTP_403_FORBIDDEN)
-#     return Response({'user': serializer.data}, status=status.HTTP_200_OK)
+class MyTokenObtainPairView(TokenObtainPairView):
+  serializer_class = MyTokenObtainPairSerializer

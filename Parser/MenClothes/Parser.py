@@ -25,7 +25,7 @@ with open('Parser/MenClothes/product_links.json') as file:
 with open('Parser/Brands/brands.json') as file:
    brands = json.load(file)['brands']
 
-id = 1
+id = 0
 clothes = {'goods': []}
 
 for item in clothes_list:
@@ -54,8 +54,8 @@ for item in clothes_list:
 
 
    for index, elem in enumerate(brands):
-      if elem['brand_name'] == brand:
-         brand_id = index+1
+      if elem['title'] == brand:
+         brand_id = index
          break
 
    good_characteristic = {

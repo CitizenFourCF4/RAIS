@@ -33,5 +33,6 @@ class Item(models.Model):
 class Cart(models.Model):
   item = models.ForeignKey(Item, on_delete=models.CASCADE)
   count = models.PositiveIntegerField()
+  size = models.CharField(max_length=15, default='One size')
   user = models.ForeignKey(User, on_delete=models.CASCADE)
  	

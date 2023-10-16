@@ -2,13 +2,17 @@ import React, {useEffect, useState, useContext} from "react";
 import Header from "../../components/header/header";
 import AuthContext from "../../context/AuthContext";
 import {useNavigate} from 'react-router-dom'
+import styles from './Cart.module.css'
 
 
 const Cart = () => {
   const navigate = useNavigate()
   const [isAuthorized, SetIsAuthorized] = useState(false)
   const [cartItems, setCartItems] = useState([])
-  const {authTokens} = useContext(AuthContext)
+  const {authTokens, logoutUser} = useContext(AuthContext)
+  const [price, setPrice] = useState(0);
+
+
   useEffect(()=> {
     getCartItems()
   }, [])
@@ -30,14 +34,65 @@ const Cart = () => {
     }
   }
 
+
+  const handlePrice = () => {
+    let ans = 0;
+    cartItems.map((item) => (ans += item.count * item.price));
+    setPrice(ans);
+  };
+
+  const handleClick = (id, delta) => {
+    console.log(id)
+    const arr = cartItems
+    arr[id].count += delta
+    if (arr[id].count < 1) {arr[id].count = 1}
+    setCartItems([...arr])
+  }
+
+  const handleRemove = (id) => {
+    const arr = cartItems.filter((item)=> item.id !== id)
+    setCartItems(arr)
+    
+  }
+
+  
+
+  useEffect(() =>{
+    handlePrice()
+  }, [cartItems])
+
   return (
     <div>
       <Header />
-      {isAuthorized &&  ( <ul style={{marginTop:'200px'}}>
-        {cartItems.map(cartItem => (
-          <li key={cartItem.id}>{cartItem.item} ----- {cartItem.count}</li>
-        ))}
-      </ul >)}
+      {isAuthorized &&  ( 
+        <div className={styles.cart_wrapper}>
+          <div className={styles.cart_container}>
+            <div className={styles.cart_exit}>
+              <button onClick={logoutUser} className={styles.exit_button}>Выйти из системы</button>
+            </div>
+          <ul>
+            {cartItems.map((cartItem, index) => (
+              <li key={index} style={{listStyle: 'none'}}>
+                <div className={styles.cart_content}>
+                  <img src={cartItem.img_ref} className={styles.item_img}/>
+                  {cartItem.item} 
+                  <div className={styles.item_count_wrapper}>
+                    <button onClick={() => handleClick(index, -1)}>-</button>
+                    <span className={styles.item_count}>{cartItem.count}</span>
+                    <button onClick={() => handleClick(index, 1)}>+</button>
+                  </div>
+                  {cartItem.price * cartItem.count}
+                  <div className={styles.delete_item}>
+                    <button onClick={() => handleRemove(cartItem.id)}>Удалить из корзины</button>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul >
+          <span style={{marginTop:'200px'}}>Rs - {price}</span>
+        </div>
+        </div>)}
+        
     </div>
   )
 }

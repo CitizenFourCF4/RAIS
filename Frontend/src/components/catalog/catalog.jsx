@@ -6,6 +6,7 @@ const Catalog = ({products}) => {
     <div className={styles.container_catalog}>
       <div className={styles.catalog}>
         <div className={styles.sticky}>
+          
         </div>
         <div className={styles.catalog_wrapper}>
           <div className={styles.product_catalog}>

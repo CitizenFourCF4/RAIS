@@ -1,8 +1,8 @@
 {
   "goods": [
     {
-      "id": 1,
-      "href": "/goods/1",
+      "id": 0,
+      "href": "/goods/0",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Gabardine Utility",
       "price": 30190,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -15,13 +15,13 @@
         "XL",
         "XXL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/1.jpg",
-      "created": "2023-10-15T12:22:21Z",
-      "brand_id": 22
+      "picture_path": "http://127.0.0.1:8000/media/images/0.jpg",
+      "created": "2023-10-15T21:02:14Z",
+      "brand_id": 21
     },
     {
-      "id": 2,
-      "href": "/goods/2",
+      "id": 1,
+      "href": "/goods/1",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Himalayan Insulated",
       "price": 24490,
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
@@ -30,16 +30,15 @@
       "sizes": [
         "M",
         "L",
-        "XL",
         "XXL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/2.jpg",
-      "created": "2023-10-15T12:22:22Z",
-      "brand_id": 114
+      "picture_path": "http://127.0.0.1:8000/media/images/1.jpg",
+      "created": "2023-10-15T21:02:16Z",
+      "brand_id": 112
     },
     {
-      "id": 3,
-      "href": "/goods/3",
+      "id": 2,
+      "href": "/goods/2",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Himalayan Insulated",
       "price": 24490,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -52,13 +51,13 @@
         "XL",
         "XXL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/3.jpg",
-      "created": "2023-10-15T12:22:24Z",
-      "brand_id": 114
+      "picture_path": "http://127.0.0.1:8000/media/images/2.jpg",
+      "created": "2023-10-15T21:02:18Z",
+      "brand_id": 112
     },
     {
-      "id": 4,
-      "href": "/goods/4",
+      "id": 3,
+      "href": "/goods/3",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Alpine",
       "price": 22490,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -71,13 +70,13 @@
         "XL",
         "XXL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/4.jpg",
-      "created": "2023-10-15T12:22:26Z",
-      "brand_id": 21
+      "picture_path": "http://127.0.0.1:8000/media/images/3.jpg",
+      "created": "2023-10-15T21:02:22Z",
+      "brand_id": 20
     },
     {
-      "id": 5,
-      "href": "/goods/5",
+      "id": 4,
+      "href": "/goods/4",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Adda Smock",
       "price": 46190,
       "color": "\u0413\u043e\u043b\u0443\u0431\u043e\u0439",
@@ -90,13 +89,13 @@
         "XL",
         "XXL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/5.jpg",
-      "created": "2023-10-15T12:22:27Z",
-      "brand_id": 62
+      "picture_path": "http://127.0.0.1:8000/media/images/4.jpg",
+      "created": "2023-10-15T21:02:34Z",
+      "brand_id": 60
     },
     {
-      "id": 6,
-      "href": "/goods/6",
+      "id": 5,
+      "href": "/goods/5",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Adda Smock",
       "price": 46190,
       "color": "\u0421\u0435\u0440\u044b\u0439",
@@ -109,13 +108,13 @@
         "XL",
         "XXL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/6.jpg",
-      "created": "2023-10-15T12:22:29Z",
-      "brand_id": 62
+      "picture_path": "http://127.0.0.1:8000/media/images/5.jpg",
+      "created": "2023-10-15T21:02:36Z",
+      "brand_id": 60
     },
     {
-      "id": 7,
-      "href": "/goods/7",
+      "id": 6,
+      "href": "/goods/6",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Ortega",
       "price": 9690,
       "color": "\u041a\u0430\u043c\u0443\u0444\u043b\u044f\u0436\u043d\u044b\u0439",
@@ -125,13 +124,13 @@
         "S",
         "M"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/7.jpg",
-      "created": "2023-10-15T12:22:31Z",
-      "brand_id": 128
+      "picture_path": "http://127.0.0.1:8000/media/images/6.jpg",
+      "created": "2023-10-15T21:02:43Z",
+      "brand_id": 126
     },
     {
-      "id": 8,
-      "href": "/goods/8",
+      "id": 7,
+      "href": "/goods/7",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Double Pocket Mountain",
       "price": 29890,
       "color": "\u0424\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0439",
@@ -141,13 +140,13 @@
         "M",
         "L"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/8.jpg",
-      "created": "2023-10-15T12:22:33Z",
-      "brand_id": 128
+      "picture_path": "http://127.0.0.1:8000/media/images/7.jpg",
+      "created": "2023-10-15T21:02:46Z",
+      "brand_id": 126
     },
     {
-      "id": 9,
-      "href": "/goods/9",
+      "id": 8,
+      "href": "/goods/8",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Double Pocket Mountain",
       "price": 29890,
       "color": "\u0417\u0435\u043b\u0451\u043d\u044b\u0439",
@@ -158,13 +157,13 @@
         "L",
         "XL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/9.jpg",
-      "created": "2023-10-15T12:22:34Z",
-      "brand_id": 128
+      "picture_path": "http://127.0.0.1:8000/media/images/8.jpg",
+      "created": "2023-10-15T21:02:55Z",
+      "brand_id": 126
     },
     {
-      "id": 10,
-      "href": "/goods/10",
+      "id": 9,
+      "href": "/goods/9",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Double Pocket Mountain",
       "price": 29890,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -175,16 +174,35 @@
         "L",
         "XL"
       ],
+      "picture_path": "http://127.0.0.1:8000/media/images/9.jpg",
+      "created": "2023-10-15T21:02:58Z",
+      "brand_id": 126
+    },
+    {
+      "id": 10,
+      "href": "/goods/10",
+      "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Dyne Smock",
+      "price": 35990,
+      "color": "\u0421\u0435\u0440\u044b\u0439",
+      "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+      "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "picture_path": "http://127.0.0.1:8000/media/images/10.jpg",
-      "created": "2023-10-15T12:22:36Z",
-      "brand_id": 128
+      "created": "2023-10-15T21:03:00Z",
+      "brand_id": 102
     },
     {
       "id": 11,
       "href": "/goods/11",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Dyne Smock",
       "price": 35990,
-      "color": "\u0421\u0435\u0440\u044b\u0439",
+      "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
       "sizes": [
@@ -195,31 +213,12 @@
         "XXL"
       ],
       "picture_path": "http://127.0.0.1:8000/media/images/11.jpg",
-      "created": "2023-10-15T12:22:37Z",
-      "brand_id": 104
+      "created": "2023-10-15T21:03:02Z",
+      "brand_id": 102
     },
     {
       "id": 12,
       "href": "/goods/12",
-      "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Dyne Smock",
-      "price": 35990,
-      "color": "\u0421\u0438\u043d\u0438\u0439",
-      "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
-      "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "picture_path": "http://127.0.0.1:8000/media/images/12.jpg",
-      "created": "2023-10-15T12:22:39Z",
-      "brand_id": 104
-    },
-    {
-      "id": 13,
-      "href": "/goods/13",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Pocket Summer",
       "price": 19690,
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
@@ -228,32 +227,42 @@
       "sizes": [
         "M"
       ],
+      "picture_path": "http://127.0.0.1:8000/media/images/12.jpg",
+      "created": "2023-10-15T21:03:06Z",
+      "brand_id": 71
+    },
+    {
+      "id": 13,
+      "href": "/goods/13",
+      "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Pocket Summer",
+      "price": 19690,
+      "color": "\u0421\u0438\u043d\u0438\u0439",
+      "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+      "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
+      "sizes": [],
       "picture_path": "http://127.0.0.1:8000/media/images/13.jpg",
-      "created": "2023-10-15T12:22:40Z",
-      "brand_id": 73
+      "created": "2023-10-15T21:03:08Z",
+      "brand_id": 71
     },
     {
       "id": 14,
       "href": "/goods/14",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Pocket Summer",
       "price": 19690,
-      "color": "\u0421\u0438\u043d\u0438\u0439",
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "sizes": [],
       "picture_path": "http://127.0.0.1:8000/media/images/14.jpg",
-      "created": "2023-10-15T12:22:42Z",
-      "brand_id": 73
+      "created": "2023-10-15T21:03:10Z",
+      "brand_id": 71
     },
     {
       "id": 15,
       "href": "/goods/15",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Pocket Summer",
       "price": 19690,
-      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
       "sizes": [
@@ -261,28 +270,12 @@
         "M"
       ],
       "picture_path": "http://127.0.0.1:8000/media/images/15.jpg",
-      "created": "2023-10-15T12:22:44Z",
-      "brand_id": 73
+      "created": "2023-10-15T21:03:15Z",
+      "brand_id": 71
     },
     {
       "id": 16,
       "href": "/goods/16",
-      "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Pocket Summer",
-      "price": 19690,
-      "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
-      "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
-      "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
-      "picture_path": "http://127.0.0.1:8000/media/images/16.jpg",
-      "created": "2023-10-15T12:22:45Z",
-      "brand_id": 73
-    },
-    {
-      "id": 17,
-      "href": "/goods/17",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Pocket Summer",
       "price": 19690,
       "color": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
@@ -292,15 +285,28 @@
         "S",
         "M"
       ],
+      "picture_path": "http://127.0.0.1:8000/media/images/16.jpg",
+      "created": "2023-10-15T21:03:17Z",
+      "brand_id": 71
+    },
+    {
+      "id": 17,
+      "href": "/goods/17",
+      "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Pocket Summer",
+      "price": 19690,
+      "color": "\u0421\u0435\u0440\u044b\u0439",
+      "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+      "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
+      "sizes": [],
       "picture_path": "http://127.0.0.1:8000/media/images/17.jpg",
-      "created": "2023-10-15T12:22:47Z",
-      "brand_id": 73
+      "created": "2023-10-15T21:03:19Z",
+      "brand_id": 71
     },
     {
       "id": 18,
       "href": "/goods/18",
-      "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Pocket Summer",
-      "price": 19690,
+      "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Sum 3",
+      "price": 17990,
       "color": "\u0421\u0435\u0440\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
@@ -309,44 +315,25 @@
         "M"
       ],
       "picture_path": "http://127.0.0.1:8000/media/images/18.jpg",
-      "created": "2023-10-15T12:22:48Z",
-      "brand_id": 73
+      "created": "2023-10-15T21:03:21Z",
+      "brand_id": 71
     },
     {
       "id": 19,
       "href": "/goods/19",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Sum 3",
       "price": 17990,
-      "color": "\u0421\u0435\u0440\u044b\u0439",
+      "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
+      "sizes": [],
       "picture_path": "http://127.0.0.1:8000/media/images/19.jpg",
-      "created": "2023-10-15T12:22:50Z",
-      "brand_id": 73
+      "created": "2023-10-15T21:03:24Z",
+      "brand_id": 71
     },
     {
       "id": 20,
       "href": "/goods/20",
-      "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Sum 3",
-      "price": 17990,
-      "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
-      "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
-      "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
-      "picture_path": "http://127.0.0.1:8000/media/images/20.jpg",
-      "created": "2023-10-15T12:22:52Z",
-      "brand_id": 73
-    },
-    {
-      "id": 21,
-      "href": "/goods/21",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Sum 3",
       "price": 17990,
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
@@ -356,28 +343,29 @@
         "S",
         "M"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/21.jpg",
-      "created": "2023-10-15T12:22:52Z",
-      "brand_id": 73
+      "picture_path": "http://127.0.0.1:8000/media/images/20.jpg",
+      "created": "2023-10-15T21:03:26Z",
+      "brand_id": 71
     },
     {
-      "id": 22,
-      "href": "/goods/22",
+      "id": 21,
+      "href": "/goods/21",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Sum 3",
       "price": 17990,
       "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
       "sizes": [
-        "S"
+        "S",
+        "M"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/22.jpg",
-      "created": "2023-10-15T12:22:54Z",
-      "brand_id": 73
+      "picture_path": "http://127.0.0.1:8000/media/images/21.jpg",
+      "created": "2023-10-15T21:03:28Z",
+      "brand_id": 71
     },
     {
-      "id": 23,
-      "href": "/goods/23",
+      "id": 22,
+      "href": "/goods/22",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Rainforest Sum 3",
       "price": 17990,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -386,29 +374,26 @@
       "sizes": [
         "S"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/23.jpg",
-      "created": "2023-10-15T12:22:55Z",
-      "brand_id": 73
+      "picture_path": "http://127.0.0.1:8000/media/images/22.jpg",
+      "created": "2023-10-15T21:03:31Z",
+      "brand_id": 71
     },
     {
-      "id": 24,
-      "href": "/goods/24",
+      "id": 23,
+      "href": "/goods/23",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Tie Dyed Smock",
       "price": 30190,
       "color": "\u0421\u0438\u043d\u0438\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
-      "picture_path": "http://127.0.0.1:8000/media/images/24.jpg",
-      "created": "2023-10-15T12:22:57Z",
-      "brand_id": 64
+      "sizes": [],
+      "picture_path": "http://127.0.0.1:8000/media/images/23.jpg",
+      "created": "2023-10-15T21:03:35Z",
+      "brand_id": 62
     },
     {
-      "id": 25,
-      "href": "/goods/25",
+      "id": 24,
+      "href": "/goods/24",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Tie Dyed Smock",
       "price": 30190,
       "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
@@ -417,46 +402,41 @@
       "sizes": [
         "S"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/25.jpg",
-      "created": "2023-10-15T12:22:59Z",
-      "brand_id": 64
+      "picture_path": "http://127.0.0.1:8000/media/images/24.jpg",
+      "created": "2023-10-15T21:03:39Z",
+      "brand_id": 62
     },
     {
-      "id": 26,
-      "href": "/goods/26",
+      "id": 25,
+      "href": "/goods/25",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Tactical Smock",
       "price": 13490,
       "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
       "sizes": [
-        "S",
-        "M",
-        "XXL"
+        "M"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/26.jpg",
-      "created": "2023-10-15T12:23:01Z",
-      "brand_id": 82
+      "picture_path": "http://127.0.0.1:8000/media/images/25.jpg",
+      "created": "2023-10-15T21:03:41Z",
+      "brand_id": 80
     },
     {
-      "id": 27,
-      "href": "/goods/27",
+      "id": 26,
+      "href": "/goods/26",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Mario",
       "price": 10990,
       "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
-      "picture_path": "http://127.0.0.1:8000/media/images/27.jpg",
-      "created": "2023-10-15T12:23:03Z",
-      "brand_id": 82
+      "sizes": [],
+      "picture_path": "http://127.0.0.1:8000/media/images/26.jpg",
+      "created": "2023-10-15T21:03:44Z",
+      "brand_id": 80
     },
     {
-      "id": 28,
-      "href": "/goods/28",
+      "id": 27,
+      "href": "/goods/27",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Mario",
       "price": 10990,
       "color": "\u0421\u0438\u043d\u0438\u0439",
@@ -467,13 +447,13 @@
         "L",
         "XL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/28.jpg",
-      "created": "2023-10-15T12:23:04Z",
-      "brand_id": 82
+      "picture_path": "http://127.0.0.1:8000/media/images/27.jpg",
+      "created": "2023-10-15T21:03:46Z",
+      "brand_id": 80
     },
     {
-      "id": 29,
-      "href": "/goods/29",
+      "id": 28,
+      "href": "/goods/28",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Garside",
       "price": 10690,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -485,13 +465,13 @@
         "L",
         "XL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/29.jpg",
-      "created": "2023-10-15T12:23:06Z",
-      "brand_id": 82
+      "picture_path": "http://127.0.0.1:8000/media/images/28.jpg",
+      "created": "2023-10-15T21:03:49Z",
+      "brand_id": 80
     },
     {
-      "id": 30,
-      "href": "/goods/30",
+      "id": 29,
+      "href": "/goods/29",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Smock",
       "price": 32490,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -503,13 +483,13 @@
         "L",
         "XL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/30.jpg",
-      "created": "2023-10-15T12:23:09Z",
-      "brand_id": 104
+      "picture_path": "http://127.0.0.1:8000/media/images/29.jpg",
+      "created": "2023-10-15T21:03:53Z",
+      "brand_id": 102
     },
     {
-      "id": 31,
-      "href": "/goods/31",
+      "id": 30,
+      "href": "/goods/30",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a x ArkAir Popover",
       "price": 28190,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -518,13 +498,13 @@
       "sizes": [
         "S"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/31.jpg",
-      "created": "2023-10-15T12:23:11Z",
-      "brand_id": 39
+      "picture_path": "http://127.0.0.1:8000/media/images/30.jpg",
+      "created": "2023-10-15T21:03:56Z",
+      "brand_id": 37
     },
     {
-      "id": 32,
-      "href": "/goods/32",
+      "id": 31,
+      "href": "/goods/31",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Gore-Tex Paclite",
       "price": 43990,
       "color": "\u0424\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0439",
@@ -535,13 +515,13 @@
         "M",
         "L"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/32.jpg",
-      "created": "2023-10-15T12:23:13Z",
-      "brand_id": 115
+      "picture_path": "http://127.0.0.1:8000/media/images/31.jpg",
+      "created": "2023-10-15T21:03:58Z",
+      "brand_id": 113
     },
     {
-      "id": 33,
-      "href": "/goods/33",
+      "id": 32,
+      "href": "/goods/32",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Gore-Tex Paclite",
       "price": 43990,
       "color": "\u041e\u043b\u0438\u0432\u043a\u043e\u0432\u044b\u0439",
@@ -552,13 +532,13 @@
         "M",
         "XL"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/33.jpg",
-      "created": "2023-10-15T12:23:15Z",
-      "brand_id": 115
+      "picture_path": "http://127.0.0.1:8000/media/images/32.jpg",
+      "created": "2023-10-15T21:04:01Z",
+      "brand_id": 113
     },
     {
-      "id": 34,
-      "href": "/goods/34",
+      "id": 33,
+      "href": "/goods/33",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Gore-Tex Paclite",
       "price": 43990,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
@@ -568,29 +548,26 @@
         "S",
         "M"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/34.jpg",
-      "created": "2023-10-15T12:23:16Z",
-      "brand_id": 115
+      "picture_path": "http://127.0.0.1:8000/media/images/33.jpg",
+      "created": "2023-10-15T21:04:03Z",
+      "brand_id": 113
     },
     {
-      "id": 35,
-      "href": "/goods/35",
+      "id": 34,
+      "href": "/goods/34",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Pertex Down",
       "price": 30990,
       "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
       "sex": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
       "category": "\u0410\u043d\u043e\u0440\u0430\u043a\u0438",
-      "sizes": [
-        "S",
-        "M"
-      ],
-      "picture_path": "http://127.0.0.1:8000/media/images/35.jpg",
-      "created": "2023-10-15T12:23:19Z",
-      "brand_id": 115
+      "sizes": [],
+      "picture_path": "http://127.0.0.1:8000/media/images/34.jpg",
+      "created": "2023-10-15T21:04:05Z",
+      "brand_id": 113
     },
     {
-      "id": 36,
-      "href": "/goods/36",
+      "id": 35,
+      "href": "/goods/35",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Pertex Down",
       "price": 30990,
       "color": "\u0411\u043e\u0440\u0434\u043e\u0432\u044b\u0439",
@@ -599,13 +576,13 @@
       "sizes": [
         "M"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/36.jpg",
-      "created": "2023-10-15T12:23:20Z",
-      "brand_id": 115
+      "picture_path": "http://127.0.0.1:8000/media/images/35.jpg",
+      "created": "2023-10-15T21:04:10Z",
+      "brand_id": 113
     },
     {
-      "id": 37,
-      "href": "/goods/37",
+      "id": 36,
+      "href": "/goods/36",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Logo Applique Pullover Hoodie",
       "price": 20690,
       "color": "\u0417\u0435\u043b\u0451\u043d\u044b\u0439",
@@ -614,13 +591,13 @@
       "sizes": [
         "S"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/37.jpg",
-      "created": "2023-10-15T12:23:22Z",
-      "brand_id": 42
+      "picture_path": "http://127.0.0.1:8000/media/images/36.jpg",
+      "created": "2023-10-15T21:04:12Z",
+      "brand_id": 40
     },
     {
-      "id": 38,
-      "href": "/goods/38",
+      "id": 37,
+      "href": "/goods/37",
       "name": "\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u0430\u043d\u043e\u0440\u0430\u043a Logo Applique Pullover Hoodie",
       "price": 20690,
       "color": "\u0421\u0438\u043d\u0438\u0439",
@@ -629,9 +606,9 @@
       "sizes": [
         "S"
       ],
-      "picture_path": "http://127.0.0.1:8000/media/images/38.jpg",
-      "created": "2023-10-15T12:23:24Z",
-      "brand_id": 42
+      "picture_path": "http://127.0.0.1:8000/media/images/37.jpg",
+      "created": "2023-10-15T21:04:14Z",
+      "brand_id": 40
     }
   ]
 }

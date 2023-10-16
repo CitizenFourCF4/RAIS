@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext, useState} from "react";
 import headerItems from "./headerItems";
 import {BsStar, BsSearch, BsPerson} from 'react-icons/bs'
 import {PiHandbagSimple} from 'react-icons/pi'
@@ -7,6 +7,7 @@ import AuthContext from "../../context/AuthContext";
 
 const Header = () => {
   let {user} = useContext(AuthContext)
+  const [isShowInput, setIsShowInput] = useState(false)
   return(
       <div className={styles.header_wrapper}>
         <div className={styles.header_container}>
@@ -28,10 +29,10 @@ const Header = () => {
               </ul>
             </div>
             <div className={styles.header_actions}>
-              <div className={styles.favourite_header} style={{paddingLeft: "30px"}}>
-                  <BsStar size={25}/>
-              </div>
-              <div className={styles.search_header} style={{paddingLeft: "30px"}}>
+              {isShowInput && <div>
+                <input type="text" className={styles.inputField} autoFocus/>
+              </div>}
+              <div className={styles.search_header} style={{paddingLeft: "30px", cursor:"pointer"}} onClick={() => setIsShowInput(!isShowInput)}>
                   <BsSearch size={25}/>
               </div>
               <div className={styles.cart_header} style={{paddingLeft: "30px"}}>

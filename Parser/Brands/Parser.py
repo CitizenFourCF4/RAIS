@@ -8,7 +8,7 @@ soup = BeautifulSoup(requests.get(url).text, 'html.parser')
 
 items = soup.find_all('a', class_='link link_black')
 brands = {'brands': []}
-id = 1
+id = 0
 for item in items:
   href = item.get('href')
   name = item.find('span').text

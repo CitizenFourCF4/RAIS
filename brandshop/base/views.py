@@ -68,6 +68,10 @@ class ItemView(APIView):
 class ManPageView(APIView):
   def get(self, request):
     goods = Item.objects.filter(sex='Мужской')
+    query = request.query_params.get('q')
+    print(11, query)
+    if query:
+      goods = goods.filter(brand__name__icontains=query)
     goods_responce = [{
       'href': good.href,
       'name': good.name,
@@ -101,11 +105,34 @@ class CartView(APIView):
     user = request.user
     cart_items = Cart.objects.filter(user=user)
     cart_items_response = [{
+      'id': item.id,
       'item': item.item.name,
       'count': item.count,
+      'price': item.item.price,
+      'img_ref': item.item.picture_path,
     } for item in cart_items]
     return Response(cart_items_response)
+  
+  
+@permission_classes([IsAuthenticated])  
+class AddToCartView(APIView):
+  def post(self, request):
+    user = request.user
+    print(user)
+    Cart.objects.create(
+      count = request.data.get('count'),
+      item_id = request.data.get('item_id'),
+      user = request.user,
+      size = request.data.get('size')
+    )
+    return Response({})
+  
 
+# class ItemsViewSet(APIView):
+#   def get(self, request):
+#     query = request.query_params.get('q')
+#     qs = Item.objects.filter(brand__icontains=query) if query else Item.object.all()
+#     return qs
 
 
 class MyTokenObtainPairView(TokenObtainPairView):

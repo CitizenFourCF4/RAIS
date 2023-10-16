@@ -72,3 +72,8 @@
     justify-content:flex-end;
     display: flex;
 }
+
+.inputField{
+    height: 100%;
+    transition-duration: 10s;
+}

@@ -1,20 +1,46 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, useContext} from "react";
 import { loadGood } from "./loadGood.service";
 import Header from "../../components/header/header";
 import styles from './Goods.module.css'
 import {FiCopy} from 'react-icons/fi'
 import { useParams } from "react-router-dom";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+import AuthContext from "../../context/AuthContext";
+import GoodImage from "../../components/good_image/goodImage";
 
 const Good = () => {
   const [good, setGood] = useState([])
   const page_id = useParams().id
   const [chosenSize, setChosenSize] = useState(0)
-
-
+  const navigate = useNavigate();
+  const {authTokens} = useContext(AuthContext)
 
   useEffect(()=>{
     getItem()
 }, []);
+
+const addToCart = () => {
+  const data = {
+    'item_id': page_id,
+    'size': good.sizes[chosenSize],
+    'count': 1,
+  }
+  const options = {
+    headers:{
+      'Authorization': 'Bearer ' + String(authTokens.access) 
+    }
+  }
+  axios.post('http://127.0.0.1:8000/api/add_to_cart/', data, options)
+  .then(function(response){
+    
+  })
+  .catch(function (error) {
+    if (error.response.status === 401){
+      navigate('/login')
+    }
+  })
+}
 
 
 const getItem = async() => {
@@ -30,27 +56,13 @@ const getItem = async() => {
 }
 
 
-
-
   return(
     <div>
       <Header />
       <div className={styles.page_catalog}>
         <div className={styles.page_container}>
           <div className={styles.product_page}>
-            <div className={styles.product_page_slider}>
-              <div className={styles.product_page_slider_wrapper}>
-                <div className={styles.swiper_wrapper}>
-                  <div className={styles.swiper_slide}>
-                    <div className={styles.main_wrapper}>
-                      <div className={styles.product_page_img}>
-                        <img src={good.picture_path} alt="" style={{width:'544px'}}/>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <GoodImage image_url={good.picture_path} />
             <div className={styles.product_page_card_wrapper}>
               <div className={styles.sticke_max}>
                 <div className={styles.product_page_card}>
@@ -84,7 +96,7 @@ const getItem = async() => {
                         </span>
                       </div>
                       <div style={{marginBottom:'2.4rem'}}>
-                        <button className={styles.button_product_order}>
+                        <button className={styles.button_product_order} onClick={() => addToCart()}>
                           Добавить в корзину
                         </button>
                       </div>
@@ -100,7 +112,7 @@ const getItem = async() => {
                       <div className={styles.spoiler_wraper}>
                         <li className={styles.product_menu_item}>
                           <div className={styles.product_menu_title}>
-                            <span style={{flex: '1 0 auto'} }>Доставка и оплата</span>
+                            <span style={{flex: '1 0 auto'}}>Доставка и оплата</span>
                           </div>
                         </li>
                         <li className={styles.product_menu_item}>
@@ -115,10 +127,7 @@ const getItem = async() => {
               </div>
             </div>
           </div>
-        
         </div>
-        
-
       </div>
     </div>
   ) 

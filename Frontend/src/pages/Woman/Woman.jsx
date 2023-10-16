@@ -18,7 +18,7 @@ const Woman = () => {
   return (
     <div>
       <Header />
-      <Catalog products={products}/>
+      {products.length > 0 ? <Catalog products={products}/> : <p style={{margin:'25%'}}>Товаров в выбранной категории нет. Уточните свой поиск</p>}
     </div>
   )
 }

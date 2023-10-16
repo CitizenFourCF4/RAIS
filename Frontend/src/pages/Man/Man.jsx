@@ -6,10 +6,12 @@ import { loadProduct } from "./loadManProduct.service";
 const Man = () => {
 
   const [products, setProducts] = useState([])
+  // const [searchText, setSearchText] = useState('')
   useEffect(()=>{
 
     const fetchData = async () => {
         const data = await loadProduct.getAll()
+        console.log(data)
         setProducts(data)
       }
     fetchData()
@@ -20,7 +22,9 @@ const Man = () => {
   return (
     <div>
       <Header />
-      <Catalog products={products}/>
+      {products.length > 0 ? <Catalog products={products}/> : <p>Уточните свой поиск</p>}
+      
+      {/* <input type="search" placeholder="search..." value={searchText} onChange={e => setSearchText(e.target.value)}/> */}
     </div>
   )
 }

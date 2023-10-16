@@ -1,5 +1,6 @@
 from rest_framework.views import APIView
 from .models import Brand, Item, Cart
+from django.db.models import Q
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
@@ -69,16 +70,39 @@ class ManPageView(APIView):
   def get(self, request):
     goods = Item.objects.filter(sex='Мужской')
     query = request.query_params.get('q')
-    print(11, query)
-    if query:
-      goods = goods.filter(brand__name__icontains=query)
+    sex = request.query_params.get('sex').split(',')
+    category = request.query_params.get('category').split(',')
+    price = request.query_params.get('price').split(',')
+    brand = request.query_params.get('brand').split(',')
+    
+    if query not in ['', 'undefined']:
+      goods = goods.filter(
+        Q(brand__title__icontains=query) |
+        Q(name__icontains=query)
+        )
+      
+    if sex not in [['undefined'], ['']]:
+      goods = goods.filter(sex__in=sex)
+
+    if category not in [['undefined'], ['']]:
+      goods = goods.filter(category__in=category)
+
+    if price not in [['undefined'], ['']]:
+      price = [int(item) for item in price]
+      goods = goods.filter(price__in=price)
+
+    if brand not in [['undefined'], ['']]:
+      goods = goods.filter(brand__title__in=brand)    
+    
     goods_responce = [{
       'href': good.href,
       'name': good.name,
       'sizes':good.sizes,
       'price': good.price,
       'brand_name': good.brand.title,
-      'picture_path':good.picture_path
+      'picture_path':good.picture_path,
+      'sex': good.sex,  
+      'category': good.category,
     } for good in goods]
 
     return Response(goods_responce)
@@ -128,11 +152,13 @@ class AddToCartView(APIView):
     return Response({})
   
 
-# class ItemsViewSet(APIView):
-#   def get(self, request):
-#     query = request.query_params.get('q')
-#     qs = Item.objects.filter(brand__icontains=query) if query else Item.object.all()
-#     return qs
+class ItemsViewSet(APIView):
+  def get(self, request):
+    query = request.query_params.get('q')
+    qs = Item.objects.filter(
+        Q(brand__title__icontains=query)
+      ) if query else Item.object.all()
+    return qs
 
 
 class MyTokenObtainPairView(TokenObtainPairView):

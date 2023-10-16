@@ -5,19 +5,17 @@
 }
 
 .module_root{
-  display: flex;
-  flex-direction: row;
   align-items: center;
+  max-width: 1000px;
   width: 100%;
-  position: absolute;
-  top: 40%;
-  left: 35%;
+  margin-top: 350px !important;
+  margin: 150px auto;
 }
 
 .module_title{
   margin-right: 1.5rem !important;
   color: rgba(220,53,69,1);
-  font-size: 158px;
+  font-size: 50px;
   margin-top: 0;
   margin-bottom: 0 !important;
 }
@@ -28,8 +26,8 @@
   font-family: "Blender Pro", Helvetica, sans-serif;
   cursor: default;
   align-items: center !important;
-  font-size: 1.75rem;
-  display: flex !important;
+  font-size: 1.6rem;
+  margin-top: 50px;
 }
 
 .text_subtitle{

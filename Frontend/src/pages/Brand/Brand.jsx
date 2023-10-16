@@ -3,6 +3,7 @@ import Header from "../../components/header/header";
 import Catalog from "../../components/catalog/catalog";
 import { loadBrand } from "./loadBrand.service";
 import { useParams } from "react-router-dom";
+import NotFound from "../../components/not_found/not_found";
 const Brand = () => {
 
   const [products, setProducts] = useState([])
@@ -19,7 +20,7 @@ const Brand = () => {
   return (
     <div>
       <Header />
-      <Catalog products={products}/>
+      {products.length > 0 ? <Catalog products={products}/> : <NotFound />}
     </div>
   )
 }

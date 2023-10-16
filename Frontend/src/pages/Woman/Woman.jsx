@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import Header from "../../components/header/header";
 import Catalog from "../../components/catalog/catalog";
 import { loadProduct } from "./loadWomanProduct.service";
+import NotFound from "../../components/not_found/not_found";
 const Woman = () => {
 
   const [products, setProducts] = useState([])
@@ -18,7 +19,7 @@ const Woman = () => {
   return (
     <div>
       <Header />
-      {products.length > 0 ? <Catalog products={products}/> : <p style={{margin:'25%'}}>Товаров в выбранной категории нет. Уточните свой поиск</p>}
+      {products.length > 0 ? <Catalog products={products}/> : <NotFound/>}
     </div>
   )
 }

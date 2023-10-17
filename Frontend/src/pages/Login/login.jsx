@@ -52,7 +52,7 @@ const Login = () => {
 
         <div className={styles.auth_action}>
           <p>Еще не зарегистрированы?</p>
-          <a href="/register" style={{textDecoration:'none', color:'black'}}>Зарегистрироваться</a>
+          <a href="/register" style={{textDecoration:'none', color:'#3535d3'}}>Зарегистрироваться</a>
         </div>
       </div>
     </div>

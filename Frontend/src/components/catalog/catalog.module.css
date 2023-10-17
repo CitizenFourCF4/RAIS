@@ -4,7 +4,6 @@
 }
 
 .container_catalog{
-  padding: 0 3.6rem;
   display: block;
   height: 100%;
   margin: 0 auto;
@@ -43,6 +42,10 @@
   display: block;
   max-height: 100%;
   background-color: #f2f2f2;
+}
+
+.product_card:hover{
+  color: black;
 }
 
 .product_card_link{
@@ -121,6 +124,7 @@
 
 .product_filter_item{
   margin-bottom: 1.6rem;
+  margin-top: 20px;
 
 }
 
@@ -175,4 +179,9 @@ product_filter_body{
   width: 25%;
   border-radius: 4px;
   height: 40px;
+}
+
+.filter_title{
+  font-size: 1.7rem !important;
+  padding-left: 1.6rem;
 }

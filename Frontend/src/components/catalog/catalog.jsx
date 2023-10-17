@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import styles from './catalog.module.css'
 
-const Catalog = ({items, loadProduct}) => {
+const Catalog = ({items, loadProduct, brandName}) => {
 
   const [products, setProducts] = useState(items)
 
@@ -67,7 +67,7 @@ const Catalog = ({items, loadProduct}) => {
     useEffect(()=>{
 
     const fetchData = async () => {
-        const data = await loadProduct.getAll({searchText: searchText, brand: chosenBrand, category: chosenCategory, price: chosenPrice, sex: chosenSex})
+        const data = await loadProduct.getAll({searchText: searchText, brand: chosenBrand, category: chosenCategory, price: chosenPrice, sex: chosenSex, brand_name: brandName})
         setProducts(data)
       }
       const timer = setTimeout(() => {
@@ -82,13 +82,14 @@ const Catalog = ({items, loadProduct}) => {
   return ( 
   <div className={styles.catalog_page}>
     <div className={styles.input_field_container}>
-      <input type="search" placeholder="search..." className={styles.input_field} value={searchText} onChange={e => setSearchText(e.target.value)}/>
+      <input type="search" placeholder="     search..." className={styles.input_field} value={searchText} onChange={e => setSearchText(e.target.value)}/>
     </div>
     <div className={styles.container_catalog}>
       <div className={styles.catalog}>
         <div className={styles.sticky}>
           <div className={styles.sticky_container}>
-            <div style={{fontWeight:'400'}}>Фильтр</div>
+            <div className={styles.filter_title} style={{fontWeight:'400'}}>Фильтр</div>
+            <hr style={{width: '60%', left: '0', position: 'absolute', marginBottom:'20px'}}/>
             <div className={styles.product_filter_item}>
               <div className={styles.product_filter_title}>Пол</div>
               <div className={styles.product_filter_body}>
@@ -129,7 +130,6 @@ const Catalog = ({items, loadProduct}) => {
                 ))}
                 </ul>
               </div>
-               
             </div>
             <div className={styles.product_filter_item}>
               <div className={styles.product_filter_title}>Бренд</div>

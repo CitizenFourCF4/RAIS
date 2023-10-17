@@ -85,7 +85,7 @@ const Register = () => {
 
         <div className={styles.auth_action}>
           <p>Уже зарегистрированы?</p>
-          <a href="/login" style={{textDecoration:'none', color:'black'}}>Вход</a>
+          <a href="/login" style={{textDecoration:'none', color:'#3535d3'}}>Вход</a>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useContext} from "react";
+import React, {useState, useEffect, useContext, useRef} from "react";
 import { loadGood } from "./loadGood.service";
 import Header from "../../components/header/header";
 import styles from './Goods.module.css'
@@ -8,6 +8,11 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import AuthContext from "../../context/AuthContext";
 import GoodImage from "../../components/good_image/goodImage";
+import Overlay from 'react-bootstrap/Overlay';
+import Tooltip from 'react-bootstrap/Tooltip';
+import ModalDelivery from '../../components/modals/modal_delivery'
+import ModalReturn from "../../components/modals/modal_return";
+
 
 const Good = () => {
   const [good, setGood] = useState([])
@@ -15,12 +20,14 @@ const Good = () => {
   const [chosenSize, setChosenSize] = useState(0)
   const navigate = useNavigate();
   const {authTokens} = useContext(AuthContext)
+  const [buttonText, setButtonText] = useState('Добавить в корзину')
 
   useEffect(()=>{
     getItem()
 }, []);
 
 const addToCart = () => {
+  setButtonText('Товар в корзине')
   const data = {
     'item_id': page_id,
     'size': good.sizes[chosenSize],
@@ -51,10 +58,20 @@ const getItem = async() => {
     }
   })
   let data = await response.json()
-  console.log(data)
   setGood(data)
 }
 
+
+const [show, setShow] = useState(false);
+const targetCode = useRef(null);
+
+const handlerClickCode = (id) => {
+  navigator.clipboard.writeText(id)
+  setShow(!show)
+}
+
+const [modalDeliveryShow, setModalDeliveryShow] = useState(false);
+const [modalReturnShow, setModalReturnShow] = useState(false);
 
   return(
     <div>
@@ -97,26 +114,33 @@ const getItem = async() => {
                       </div>
                       <div style={{marginBottom:'2.4rem'}}>
                         <button className={styles.button_product_order} onClick={() => addToCart()}>
-                          Добавить в корзину
+                          {buttonText}
                         </button>
                       </div>
                     </div>
                     <ul className={styles.product_page_menu}>
-                      <div className={styles.product_data} onClick={() =>  navigator.clipboard.writeText(good.id)}>
+                      <div className={styles.product_data} ref={targetCode} onClick={() =>  handlerClickCode(good.id)}>
                         <div className={styles.product_data_item}>
                           <div style={{color: 'rgba(0,0,0,.4)', fontSize: '1.2rem !important', lineHeight: '1.6rem !important'}}>Код товара</div>
                           <div style={{fontSize: '1.4rem !important', lineHeight: '2rem !important'}}>{good.id}</div>
                         </div>
                         <FiCopy />
                       </div>
+                      <Overlay target={targetCode.current} show={show} placement="top">
+                        {(props) => (
+                          <Tooltip {...props}>
+                            Код товара успешно скопирован
+                          </Tooltip>
+                        )}
+                      </Overlay>
                       <div className={styles.spoiler_wraper}>
                         <li className={styles.product_menu_item}>
-                          <div className={styles.product_menu_title}>
+                          <div className={styles.product_menu_title} onClick={() => setModalDeliveryShow(true)}>
                             <span style={{flex: '1 0 auto'}}>Доставка и оплата</span>
                           </div>
                         </li>
                         <li className={styles.product_menu_item}>
-                          <div className={styles.product_menu_title}>
+                          <div className={styles.product_menu_title} onClick={() => setModalReturnShow(true)}>
                             <span style={{flex: '1 0 auto'} }>Возврат</span>
                           </div>
                         </li>
@@ -129,6 +153,8 @@ const getItem = async() => {
           </div>
         </div>
       </div>
+      <ModalDelivery show={modalDeliveryShow} onHide={() => setModalDeliveryShow(false)}/>
+      <ModalReturn show={modalReturnShow} onHide={() => setModalReturnShow(false)}/>
     </div>
   ) 
 

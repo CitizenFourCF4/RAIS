@@ -12,7 +12,7 @@ const Brand = () => {
 
   useEffect(()=>{
     const fetchData = async () => {
-        const data = await loadBrand.getAll(brand_name)
+        const data = await loadBrand.getAll({brand_name: brand_name})
         setProducts(data)
       }
       const timer = setTimeout(() => {
@@ -28,7 +28,7 @@ const Brand = () => {
   return (
     <div>
       <Header />
-      {products.length > 0 ? <Catalog items={products} /> : <NotFound />}
+      {products.length > 0 ? <Catalog items={products} loadProduct={loadBrand} brandName={brand_name}/> : <NotFound />}
     </div>
   )
 }

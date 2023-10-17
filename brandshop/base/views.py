@@ -26,6 +26,32 @@ class BrandlistView(APIView):
 class OneBrandView(APIView):
   def get(self, request, brand):
     brand_list = Item.objects.filter(brand__name=brand)
+
+    query = request.query_params.get('q')
+    sex = request.query_params.get('sex').split(',')
+    category = request.query_params.get('category').split(',')
+    price = request.query_params.get('price').split(',')
+    brand = request.query_params.get('brand').split(',')
+
+    if query not in ['', 'undefined']:
+      brand_list = brand_list.filter(
+        Q(brand__title__icontains=query) |
+        Q(name__icontains=query)
+        )
+      
+    if sex not in [['undefined'], ['']]:
+      brand_list = brand_list.filter(sex__in=sex)
+
+    if category not in [['undefined'], ['']]:
+      brand_list = brand_list.filter(category__in=category)
+
+    if price not in [['undefined'], ['']]:
+      price = [int(item) for item in price]
+      brand_list = brand_list.filter(price__in=price)
+
+    if brand not in [['undefined'], ['']]:
+      brand_list = brand_list.filter(brand__title__in=brand)
+
     brand_responce = [{
       'id': brand.id,
       'href': brand.href,
@@ -214,9 +240,26 @@ class CartView(APIView):
     return Response(cart_items_response)
   
   def post(self, request):
-    # request.data.get('count')
-    # room = Cart.objects.get(id=pk)
-    pass
+    if request.data.get('action') == 'remove':
+      user = request.user
+      cart_item = Cart.objects.filter(user = user, item__name=(request.data.get('item')), size=(request.data.get('size')))
+      cart_item.delete()
+
+    elif request.data.get('action') == 'reduce':
+      user = request.user
+      cart_item = Cart.objects.get(user = user, item__name=(request.data.get('item')), size=(request.data.get('size')))
+      cart_item.count-= 1
+      cart_item.save()
+      
+
+    elif request.data.get('action') == 'increase':
+      user = request.user
+      cart_item = Cart.objects.get(user = user, item__name=(request.data.get('item')), size=(request.data.get('size')))
+      cart_item.count +=1
+      cart_item.save()
+   
+    return Response({})
+    
   
   
 @permission_classes([IsAuthenticated])  

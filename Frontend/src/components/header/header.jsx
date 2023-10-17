@@ -29,13 +29,13 @@ const Header = () => {
               </ul>
             </div>
             <div className={styles.header_actions}>
-              <div className={styles.cart_header} style={{paddingLeft: "30px"}}>
+              {/* <div className={styles.cart_header} style={{paddingLeft: "30px"}}>
                 <a href="/cart" style={{textDecoration:'none', color:'black'}}>
                   <PiHandbagSimple size={25}/>
                 </a>
-              </div>
+              </div> */}
               <div className={styles.profile_header} style={{paddingLeft: "30px"}}>
-                <a href="/login" style={{textDecoration:'none', color:'black'}}>
+                <a href="/cart" style={{textDecoration:'none', color:'black'}}>
                   <BsPerson size={25}/>
                 </a>
               </div>

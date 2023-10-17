@@ -208,21 +208,33 @@ class CartView(APIView):
       'count': item.count,
       'price': item.item.price,
       'img_ref': item.item.picture_path,
+      'size': item.size,
+      'item_ref': item.item.href,
     } for item in cart_items]
     return Response(cart_items_response)
+  
+  def post(self, request):
+    # request.data.get('count')
+    # room = Cart.objects.get(id=pk)
+    pass
   
   
 @permission_classes([IsAuthenticated])  
 class AddToCartView(APIView):
   def post(self, request):
     user = request.user
-    print(user)
-    Cart.objects.create(
-      count = request.data.get('count'),
-      item_id = request.data.get('item_id'),
-      user = request.user,
-      size = request.data.get('size')
-    )
+    cart_items = Cart.objects.filter(user=user, item=request.data.get('item_id'), size=request.data.get('size'))
+    if cart_items:
+      item = Cart.objects.get(item=request.data.get('item_id'), size=request.data.get('size'))
+      item.count += 1
+      item.save()
+    else:
+      Cart.objects.create(
+        count = request.data.get('count'),
+        item_id = request.data.get('item_id'),
+        user = request.user,
+        size = request.data.get('size')
+      )
     return Response({})
   
 

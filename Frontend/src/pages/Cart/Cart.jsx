@@ -76,7 +76,12 @@ const Cart = () => {
               <li key={index} style={{listStyle: 'none'}}>
                 <div className={styles.cart_content}>
                   <img src={cartItem.img_ref} className={styles.item_img}/>
-                  {cartItem.item} 
+                  <a href={cartItem.item_ref} style={{textDecoration:'none', color:'inherit'}}>
+                    {cartItem.item}
+                  </a>
+                  <div>
+                    {cartItem.size}
+                  </div>
                   <div className={styles.item_count_wrapper}>
                     <button onClick={() => handleClick(index, -1)}>-</button>
                     <span className={styles.item_count}>{cartItem.count}</span>

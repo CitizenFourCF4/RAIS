@@ -1,6 +1,6 @@
 from django.urls import path
 from .views import BrandlistView
-from .views import OneBrandView, ItemView, ManPageView, WomanPageView, CartView, AddToCartView
+from .views import OneBrandView, ItemView, ManPageView, WomanPageView, AccessoriesPageView, CartView, AddToCartView
 from rest_framework_simplejwt.views import TokenRefreshView
 
 from .views import MyTokenObtainPairView
@@ -14,6 +14,7 @@ urlpatterns = [
   path('item/<str:pk>/', ItemView.as_view(), name='item'),
   path('muzhskoe', ManPageView.as_view(), name='muzhskoe'),
   path('zhenskoe', WomanPageView.as_view(), name='zhenskoe'),
+  path('accessories', AccessoriesPageView.as_view(), name='accessories'),
   path('cart_items', CartView.as_view(), name='cart_items'),
 
   

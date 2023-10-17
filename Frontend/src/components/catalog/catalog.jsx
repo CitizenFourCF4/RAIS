@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import styles from './catalog.module.css'
-import { loadProduct } from "../../pages/Man/loadManProduct.service";
-const Catalog = ({items}) => {
+
+const Catalog = ({items, loadProduct}) => {
 
   const [products, setProducts] = useState(items)
 
@@ -9,7 +9,10 @@ const Catalog = ({items}) => {
   const uniqueCategory = [...new Set(items.map(item => item.category))].sort();
   const uniquePrice = [...new Set(products.map(item => item.price))].sort((a, b) => a - b);
   const uniqueBrand = [...new Set(items.map(item => item.brand_name))].sort();
+ 
   
+
+  const [searchText, setSearchText] = useState('')
 
   const [chosenSex, setChosenSex] = useState([])
   const [chosenCategory, setChosenCategory] = useState([])
@@ -64,7 +67,7 @@ const Catalog = ({items}) => {
     useEffect(()=>{
 
     const fetchData = async () => {
-        const data = await loadProduct.getAll({brand: chosenBrand, category: chosenCategory, price: chosenPrice, sex: chosenSex})
+        const data = await loadProduct.getAll({searchText: searchText, brand: chosenBrand, category: chosenCategory, price: chosenPrice, sex: chosenSex})
         setProducts(data)
       }
       const timer = setTimeout(() => {
@@ -72,12 +75,15 @@ const Catalog = ({items}) => {
       }, 100)
     fetchData()
     return () => clearInterval(timer)
-  }, [chosenSex, chosenCategory, chosenPrice, chosenBrand]);
+  }, [searchText, chosenSex, chosenCategory, chosenPrice, chosenBrand]);
 
 
 
   return ( 
   <div className={styles.catalog_page}>
+    <div className={styles.input_field_container}>
+      <input type="search" placeholder="search..." className={styles.input_field} value={searchText} onChange={e => setSearchText(e.target.value)}/>
+    </div>
     <div className={styles.container_catalog}>
       <div className={styles.catalog}>
         <div className={styles.sticky}>

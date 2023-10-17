@@ -7,12 +7,11 @@ import NotFound from "../../components/not_found/not_found";
 const Man = () => {
 
   const [products, setProducts] = useState([])
-  const [searchText, setSearchText] = useState('')
   const [isLoading, setIsLoading] = useState(true)
   useEffect(()=>{
 
     const fetchData = async () => {
-        const data = await loadProduct.getAll({searchText: searchText})
+        const data = await loadProduct.getAll({})
         setProducts(data)
       }
       const timer = setTimeout(() => {
@@ -20,7 +19,7 @@ const Man = () => {
       }, 200)
     fetchData()
     return () => clearInterval(timer)
-  }, [searchText]);
+  }, []);
 
 
 
@@ -30,8 +29,7 @@ const Man = () => {
   return (
     <div>
       <Header />
-      <input type="search" placeholder="search..." className={styles.input_field} value={searchText} onChange={e => setSearchText(e.target.value)}/>
-      {products.length > 0 ? <Catalog items={products} /> : <NotFound />}
+      {products.length > 0 ? <Catalog items={products} loadProduct={loadProduct}/> : <NotFound />}
     </div>
   )
 }

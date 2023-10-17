@@ -19,6 +19,9 @@ from datetime import datetime
 # with open('Parser/MenClothes/product_links.json', 'w+') as file:
 #   json.dump(clothes_dict, file)
 
+
+#-----------------------------------------------------------------------------
+
 with open('Parser/MenClothes/product_links.json') as file:
     clothes_list = json.load(file)['goods'][:40]
 
@@ -67,7 +70,7 @@ for item in clothes_list:
     'sex': sex,
     'category': category,
     'sizes': sizes,
-    'picture_path': f'http://127.0.0.1:8000/media/images/{id}.jpg',
+    'picture_path': f'http://127.0.0.1:8000/media/{id}.jpg',
     'created': datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ"),
     'brand_id': brand_id
     }

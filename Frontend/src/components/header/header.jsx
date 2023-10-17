@@ -7,7 +7,7 @@ import AuthContext from "../../context/AuthContext";
 
 const Header = () => {
   let {user} = useContext(AuthContext)
-  const [isShowInput, setIsShowInput] = useState(false)
+
   return(
       <div className={styles.header_wrapper}>
         <div className={styles.header_container}>
@@ -29,12 +29,6 @@ const Header = () => {
               </ul>
             </div>
             <div className={styles.header_actions}>
-              {isShowInput && <div>
-                <input type="text" className={styles.inputField} autoFocus/>
-              </div>}
-              <div className={styles.search_header} style={{paddingLeft: "30px", cursor:"pointer"}} onClick={() => setIsShowInput(!isShowInput)}>
-                  <BsSearch size={25}/>
-              </div>
               <div className={styles.cart_header} style={{paddingLeft: "30px"}}>
                 <a href="/cart" style={{textDecoration:'none', color:'black'}}>
                   <PiHandbagSimple size={25}/>

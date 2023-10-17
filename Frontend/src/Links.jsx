@@ -5,6 +5,7 @@ import BrandsPage from "./pages/BrandList/Brands";
 import Good from "./pages/goods/Good";
 import Man from "./pages/Man/Man";
 import Woman from "./pages/Woman/Woman";
+import Accessories from "./pages/Accessories/Accessories";
 import Page404 from "./pages/404/404";
 import Brand from "./pages/Brand/Brand";
 import Login from "./pages/Login/login";
@@ -23,6 +24,7 @@ const Links = () => {
         <Route path="/goods/:id" element={<Good />}/>
         <Route path="/muzhskoe" element={<Man />}/>
         <Route path="/zhenskoe" element={<Woman />}/>
+        <Route path="/brendovie-aksessuary" element={<Accessories />}/>
         <Route path="/brands/:brand_name" element={<Brand />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/register" element={<Register />}/>

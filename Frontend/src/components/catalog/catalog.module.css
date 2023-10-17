@@ -159,6 +159,20 @@ product_filter_body{
 
 .label{
   cursor: pointer;
-  padding-left: 15px;
-  
+  padding-left: 15px; 
+}
+
+.input_field_container{
+  padding: 0 3.6rem;
+  max-width: 1488px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+
+.input_field{
+  width: 25%;
+  border-radius: 4px;
+  height: 40px;
 }

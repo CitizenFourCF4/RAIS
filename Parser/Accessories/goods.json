@@ -1,0 +1,904 @@
+{
+  "goods": [
+    {
+      "id": 66,
+      "href": "/goods/66",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Sus Boy Sus Nerm Vinyl Figure",
+      "price": 28490,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/66.jpg",
+      "created": "2023-10-17T20:01:39Z",
+      "brand_id": 96
+    },
+    {
+      "id": 67,
+      "href": "/goods/67",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Devil Nerm Vinyl Figure",
+      "price": 22690,
+      "color": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/67.jpg",
+      "created": "2023-10-17T20:01:40Z",
+      "brand_id": 96
+    },
+    {
+      "id": 68,
+      "href": "/goods/68",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Freedom Nerm Anatomy Vinyl Figure",
+      "price": 22690,
+      "color": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/68.jpg",
+      "created": "2023-10-17T20:01:42Z",
+      "brand_id": 96
+    },
+    {
+      "id": 69,
+      "href": "/goods/69",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Skelly Nerm Anatomy Vinyl Figure",
+      "price": 22690,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/69.jpg",
+      "created": "2023-10-17T20:01:47Z",
+      "brand_id": 96
+    },
+    {
+      "id": 70,
+      "href": "/goods/70",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 BAPE x Peko-Chan Blue 1000%",
+      "price": 112990,
+      "color": "\u0413\u043e\u043b\u0443\u0431\u043e\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/70.jpg",
+      "created": "2023-10-17T20:01:54Z",
+      "brand_id": 69
+    },
+    {
+      "id": 71,
+      "href": "/goods/71",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 BAPE x Peko-Chan Green 1000%",
+      "price": 112990,
+      "color": "\u0417\u0435\u043b\u0451\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/71.jpg",
+      "created": "2023-10-17T20:01:55Z",
+      "brand_id": 69
+    },
+    {
+      "id": 72,
+      "href": "/goods/72",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 BAPE x Peko-Chan Pink 1000%",
+      "price": 112990,
+      "color": "\u0420\u043e\u0437\u043e\u0432\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/72.jpg",
+      "created": "2023-10-17T20:01:56Z",
+      "brand_id": 69
+    },
+    {
+      "id": 73,
+      "href": "/goods/73",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Liberty Walk Ribana Kun 1000%",
+      "price": 95690,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/73.jpg",
+      "created": "2023-10-17T20:01:58Z",
+      "brand_id": 69
+    },
+    {
+      "id": 74,
+      "href": "/goods/74",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Andy Warhol x Jean-Michel Basquiat 3 1000%",
+      "price": 86690,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/74.jpg",
+      "created": "2023-10-17T20:01:59Z",
+      "brand_id": 69
+    },
+    {
+      "id": 75,
+      "href": "/goods/75",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Space Shuttle 1000%",
+      "price": 72490,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/75.jpg",
+      "created": "2023-10-17T20:02:01Z",
+      "brand_id": 69
+    },
+    {
+      "id": 76,
+      "href": "/goods/76",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Daruma x Peko-Chan 1000%",
+      "price": 71990,
+      "color": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/76.jpg",
+      "created": "2023-10-17T20:02:02Z",
+      "brand_id": 69
+    },
+    {
+      "id": 77,
+      "href": "/goods/77",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Daruma x Poko-Chan 1000%",
+      "price": 71990,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/77.jpg",
+      "created": "2023-10-17T20:02:03Z",
+      "brand_id": 69
+    },
+    {
+      "id": 78,
+      "href": "/goods/78",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Keith Haring Ver. 8 1000%",
+      "price": 63290,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/78.jpg",
+      "created": "2023-10-17T20:02:05Z",
+      "brand_id": 69
+    },
+    {
+      "id": 79,
+      "href": "/goods/79",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Pac-Man 1000%",
+      "price": 63290,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/79.jpg",
+      "created": "2023-10-17T20:02:06Z",
+      "brand_id": 69
+    },
+    {
+      "id": 80,
+      "href": "/goods/80",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Exit 400%",
+      "price": 13190,
+      "color": "\u0417\u0435\u043b\u0451\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/80.jpg",
+      "created": "2023-10-17T20:02:07Z",
+      "brand_id": 69
+    },
+    {
+      "id": 81,
+      "href": "/goods/81",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Anever 100% & 400%",
+      "price": 27690,
+      "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/81.jpg",
+      "created": "2023-10-17T20:02:09Z",
+      "brand_id": 69
+    },
+    {
+      "id": 82,
+      "href": "/goods/82",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Andy Warhol Cow Wallpaper 100% & 400%",
+      "price": 21490,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/82.jpg",
+      "created": "2023-10-17T20:02:11Z",
+      "brand_id": 69
+    },
+    {
+      "id": 83,
+      "href": "/goods/83",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Space Shuttle 100% & 400%",
+      "price": 17190,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/83.jpg",
+      "created": "2023-10-17T20:02:13Z",
+      "brand_id": 69
+    },
+    {
+      "id": 84,
+      "href": "/goods/84",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Matthew 100% & 400%",
+      "price": 15890,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/84.jpg",
+      "created": "2023-10-17T20:02:14Z",
+      "brand_id": 69
+    },
+    {
+      "id": 85,
+      "href": "/goods/85",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Shareef 1 1000%",
+      "price": 110990,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/85.jpg",
+      "created": "2023-10-17T20:02:15Z",
+      "brand_id": 69
+    },
+    {
+      "id": 86,
+      "href": "/goods/86",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 The Rolling Stones Sticky Fingers Design 1000%",
+      "price": 104990,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/86.jpg",
+      "created": "2023-10-17T20:02:16Z",
+      "brand_id": 69
+    },
+    {
+      "id": 87,
+      "href": "/goods/87",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Chocomoo 1000%",
+      "price": 97190,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/87.jpg",
+      "created": "2023-10-17T20:02:17Z",
+      "brand_id": 69
+    },
+    {
+      "id": 88,
+      "href": "/goods/88",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Jimmy Onishi Jungle\u2019s Song 1000%",
+      "price": 97190,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/88.jpg",
+      "created": "2023-10-17T20:02:18Z",
+      "brand_id": 69
+    },
+    {
+      "id": 89,
+      "href": "/goods/89",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Stash Medicom Toy 1000%",
+      "price": 97190,
+      "color": "\u0421\u0438\u043d\u0438\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/89.jpg",
+      "created": "2023-10-17T20:02:19Z",
+      "brand_id": 69
+    },
+    {
+      "id": 90,
+      "href": "/goods/90",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Gold Heart 1000%",
+      "price": 83690,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/90.jpg",
+      "created": "2023-10-17T20:02:20Z",
+      "brand_id": 69
+    },
+    {
+      "id": 91,
+      "href": "/goods/91",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 AJ Styles 400%",
+      "price": 18690,
+      "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/91.jpg",
+      "created": "2023-10-17T20:02:23Z",
+      "brand_id": 69
+    },
+    {
+      "id": 92,
+      "href": "/goods/92",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Shinsuke Nakamura 400%",
+      "price": 18690,
+      "color": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/92.jpg",
+      "created": "2023-10-17T20:02:25Z",
+      "brand_id": 69
+    },
+    {
+      "id": 93,
+      "href": "/goods/93",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 The Rolling Stones Sticky Fingers Design 100% & 400%",
+      "price": 24490,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/93.jpg",
+      "created": "2023-10-17T20:02:26Z",
+      "brand_id": 69
+    },
+    {
+      "id": 94,
+      "href": "/goods/94",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Stash Medicom Toy 100% & 400%",
+      "price": 21490,
+      "color": "\u0421\u0438\u043d\u0438\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/94.jpg",
+      "created": "2023-10-17T20:02:28Z",
+      "brand_id": 69
+    },
+    {
+      "id": 95,
+      "href": "/goods/95",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Jimmy Onishi Jungle\u2019s Song 100% & 400%",
+      "price": 17190,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/95.jpg",
+      "created": "2023-10-17T20:02:28Z",
+      "brand_id": 69
+    },
+    {
+      "id": 96,
+      "href": "/goods/96",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Libertydead",
+      "price": 68990,
+      "color": "\u0417\u0435\u043b\u0451\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/96.jpg",
+      "created": "2023-10-17T20:02:30Z",
+      "brand_id": 130
+    },
+    {
+      "id": 97,
+      "href": "/goods/97",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Bright Liang Plaster",
+      "price": 52990,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/97.jpg",
+      "created": "2023-10-17T20:02:31Z",
+      "brand_id": 130
+    },
+    {
+      "id": 98,
+      "href": "/goods/98",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Super Professional XL Off White",
+      "price": 51690,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/98.jpg",
+      "created": "2023-10-17T20:02:32Z",
+      "brand_id": 130
+    },
+    {
+      "id": 99,
+      "href": "/goods/99",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Playboy #4 BunnyS Black",
+      "price": 51690,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/99.jpg",
+      "created": "2023-10-17T20:02:33Z",
+      "brand_id": 130
+    },
+    {
+      "id": 100,
+      "href": "/goods/100",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Fly Fei Plaster",
+      "price": 47990,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/100.jpg",
+      "created": "2023-10-17T20:02:36Z",
+      "brand_id": 130
+    },
+    {
+      "id": 101,
+      "href": "/goods/101",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise Honmono Taiketsu Submariner Black",
+      "price": 41190,
+      "color": "\u0421\u0435\u0440\u0435\u0431\u0440\u044f\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/101.jpg",
+      "created": "2023-10-17T20:02:38Z",
+      "brand_id": 130
+    },
+    {
+      "id": 102,
+      "href": "/goods/102",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise Honmono Taiketsu Vintage Bart",
+      "price": 41190,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/102.jpg",
+      "created": "2023-10-17T20:02:39Z",
+      "brand_id": 130
+    },
+    {
+      "id": 103,
+      "href": "/goods/103",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise Lowfool Pioneer",
+      "price": 40990,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/103.jpg",
+      "created": "2023-10-17T20:02:40Z",
+      "brand_id": 130
+    },
+    {
+      "id": 104,
+      "href": "/goods/104",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Super Professional Rainbow Chrome",
+      "price": 39690,
+      "color": "\u0417\u0435\u043b\u0451\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/104.jpg",
+      "created": "2023-10-17T20:02:42Z",
+      "brand_id": 130
+    },
+    {
+      "id": 105,
+      "href": "/goods/105",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Super Professional XL Forest Blocks",
+      "price": 39690,
+      "color": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/105.jpg",
+      "created": "2023-10-17T20:02:43Z",
+      "brand_id": 130
+    },
+    {
+      "id": 106,
+      "href": "/goods/106",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Super Professional XL Milkshake",
+      "price": 39690,
+      "color": "\u0424\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/106.jpg",
+      "created": "2023-10-17T20:02:44Z",
+      "brand_id": 130
+    },
+    {
+      "id": 107,
+      "href": "/goods/107",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise YeLLowfool Dokkan Awaken",
+      "price": 39690,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/107.jpg",
+      "created": "2023-10-17T20:02:45Z",
+      "brand_id": 130
+    },
+    {
+      "id": 108,
+      "href": "/goods/108",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise Earthman",
+      "price": 38690,
+      "color": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/108.jpg",
+      "created": "2023-10-17T20:02:46Z",
+      "brand_id": 130
+    },
+    {
+      "id": 109,
+      "href": "/goods/109",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise Super Professional Nightmare",
+      "price": 33990,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/109.jpg",
+      "created": "2023-10-17T20:02:47Z",
+      "brand_id": 130
+    },
+    {
+      "id": 110,
+      "href": "/goods/110",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise YeLLowfool",
+      "price": 33990,
+      "color": "\u0416\u0451\u043b\u0442\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/110.jpg",
+      "created": "2023-10-17T20:02:48Z",
+      "brand_id": 130
+    },
+    {
+      "id": 111,
+      "href": "/goods/111",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Garfield I Am Not Sleeping Blue",
+      "price": 32990,
+      "color": "\u0413\u043e\u043b\u0443\u0431\u043e\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/111.jpg",
+      "created": "2023-10-17T20:02:49Z",
+      "brand_id": 130
+    },
+    {
+      "id": 112,
+      "href": "/goods/112",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Garfield I Am Not Sleeping Yawn",
+      "price": 32990,
+      "color": "\u0421\u0435\u0440\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/112.jpg",
+      "created": "2023-10-17T20:02:50Z",
+      "brand_id": 130
+    },
+    {
+      "id": 113,
+      "href": "/goods/113",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise Super Professional",
+      "price": 32990,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/113.jpg",
+      "created": "2023-10-17T20:02:51Z",
+      "brand_id": 130
+    },
+    {
+      "id": 114,
+      "href": "/goods/114",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 x Fools Paradise Super Professional Grow In Dark",
+      "price": 32990,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/114.jpg",
+      "created": "2023-10-17T20:02:52Z",
+      "brand_id": 130
+    },
+    {
+      "id": 115,
+      "href": "/goods/115",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 The King Of Sauna",
+      "price": 19690,
+      "color": "\u0421\u0438\u043d\u0438\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/115.jpg",
+      "created": "2023-10-17T20:02:52Z",
+      "brand_id": 130
+    },
+    {
+      "id": 116,
+      "href": "/goods/116",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 New Akatsuka Bakabon Papa 1000%",
+      "price": 104990,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/116.jpg",
+      "created": "2023-10-17T20:02:54Z",
+      "brand_id": 69
+    },
+    {
+      "id": 117,
+      "href": "/goods/117",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Lauren Tsai 2 1000%",
+      "price": 69990,
+      "color": "\u0413\u043e\u043b\u0443\u0431\u043e\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/117.jpg",
+      "created": "2023-10-17T20:02:55Z",
+      "brand_id": 69
+    },
+    {
+      "id": 118,
+      "href": "/goods/118",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Doubly Warped Black Hole 1000%",
+      "price": 59690,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/118.jpg",
+      "created": "2023-10-17T20:02:56Z",
+      "brand_id": 69
+    },
+    {
+      "id": 119,
+      "href": "/goods/119",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Shun Sudo 1000%",
+      "price": 59690,
+      "color": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/119.jpg",
+      "created": "2023-10-17T20:02:57Z",
+      "brand_id": 69
+    },
+    {
+      "id": 120,
+      "href": "/goods/120",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 New Akatsuka Bakabon Papa 400%",
+      "price": 22690,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/120.jpg",
+      "created": "2023-10-17T20:02:58Z",
+      "brand_id": 69
+    },
+    {
+      "id": 121,
+      "href": "/goods/121",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Lauren Tsai 2 100% & 400%",
+      "price": 15490,
+      "color": "\u0413\u043e\u043b\u0443\u0431\u043e\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/121.jpg",
+      "created": "2023-10-17T20:02:59Z",
+      "brand_id": 69
+    },
+    {
+      "id": 122,
+      "href": "/goods/122",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Shun Sudo 100% & 400%",
+      "price": 15490,
+      "color": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/122.jpg",
+      "created": "2023-10-17T20:03:00Z",
+      "brand_id": 69
+    },
+    {
+      "id": 123,
+      "href": "/goods/123",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 S\u2019YTE x Junji Ito Tomie 1000%",
+      "price": 84990,
+      "color": "\u0427\u0451\u0440\u043d\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/123.jpg",
+      "created": "2023-10-17T20:03:01Z",
+      "brand_id": 69
+    },
+    {
+      "id": 124,
+      "href": "/goods/124",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 S\u2019YTE x Junji Ito Uzumaki 1000%",
+      "price": 84990,
+      "color": "\u0411\u0435\u043b\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/124.jpg",
+      "created": "2023-10-17T20:03:02Z",
+      "brand_id": 69
+    },
+    {
+      "id": 125,
+      "href": "/goods/125",
+      "name": "\u0418\u0433\u0440\u0443\u0448\u043a\u0430 Toraneko 1000%",
+      "price": 84990,
+      "color": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
+      "sex": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+      "category": "\u0418\u0433\u0440\u0443\u0448\u043a\u0438",
+      "size": [
+        "ONE"
+      ],
+      "picture_path": "http://127.0.0.1:8000/media/125.jpg",
+      "created": "2023-10-17T20:03:03Z",
+      "brand_id": 69
+    }
+  ]
+}

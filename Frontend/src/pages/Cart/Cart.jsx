@@ -14,7 +14,8 @@ const Cart = () => {
 
 
   useEffect(()=> {
-    getCartItems()
+    if (authTokens) getCartItems()
+    else navigate('/login')
   }, [])
 
   const getCartItems = async() => {

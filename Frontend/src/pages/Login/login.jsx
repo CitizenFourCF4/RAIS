@@ -31,10 +31,6 @@ const Login = () => {
 
         <form className={styles.form} onSubmit={loginUser}>
           <div className={styles.form__group}>
-            <label for="email" style={{marginBottom:'1rem'}}>Электронная почта</label>
-            <input className={styles.input_form} id="email" name="email" type="email" placeholder="e.g. primaty71@mail.ru" ref={email}/>
-          </div>
-          <div className={styles.form__group}>
             <label for="email" style={{marginBottom:'1rem'}}>Никнейм</label>
             <input className={styles.input_form} id="username" name="username" type="text" ref={username}/>
           </div>

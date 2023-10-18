@@ -7,7 +7,7 @@ const Catalog = ({items, loadProduct, brandName}) => {
 
   const uniqueSex = [...new Set(items.map(item => item.sex))].sort();
   const uniqueCategory = [...new Set(items.map(item => item.category))].sort();
-  const uniquePrice = [...new Set(products.map(item => item.price))].sort((a, b) => a - b);
+  const uniquePrice = [...new Set(items.map(item => item.price))].sort((a, b) => a - b);
   const uniqueBrand = [...new Set(items.map(item => item.brand_name))].sort();
  
   
@@ -148,6 +148,7 @@ const Catalog = ({items, loadProduct, brandName}) => {
         </div>
         <div className={styles.catalog_wrapper}>
           <div className={styles.product_catalog}>
+            
             {products.map((product, index)=>(
               <div className={styles.product_card} key={index}>
                 <a className={styles.product_card_link} href={product.href}>

@@ -5,8 +5,10 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
 from .serializer import MyTokenObtainPairSerializer
-from rest_framework.decorators import permission_classes
+from rest_framework.decorators import permission_classes, api_view
 from rest_framework.permissions import IsAuthenticated
+from rest_framework_simplejwt.tokens import RefreshToken
+from .serializer import UserRegisterSerializer
 
 
 class BrandlistView(APIView):
@@ -281,14 +283,38 @@ class AddToCartView(APIView):
     return Response({})
   
 
-# class ItemsViewSet(APIView):
-#   def get(self, request):
-#     query = request.query_params.get('q')
-#     qs = Item.objects.filter(
-#         Q(brand__title__icontains=query)
-#       ) if query else Item.object.all()
-#     return qs
 
 
 class MyTokenObtainPairView(TokenObtainPairView):
   serializer_class = MyTokenObtainPairSerializer
+
+
+
+
+@api_view(["POST",])
+def user_register_view(request):
+    if request.method == "POST":
+        serializer = UserRegisterSerializer(data=request.data)
+
+        print(request.data)
+        data = {}
+        
+        if serializer.is_valid():
+            account = serializer.save()
+            
+            data['response'] = 'Account has been created'
+            data['username'] = account.username
+            data['email'] = account.email
+            
+            # token = Token.objects.get(user=account).key
+            # data['token'] = token
+            
+            refresh = RefreshToken.for_user(account)
+            data['token'] = {
+                'refresh': str(refresh),
+                'access': str(refresh.access_token)
+            }
+        else:
+            data = serializer.errors
+            return Response(data, status=404)
+        return Response(data, status=200)
